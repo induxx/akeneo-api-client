@@ -1,0 +1,345 @@
+code;label-nl_BE;label-fr_BE;attribute;sort_order
+ADMDM;Agence du Médicament de Madagascar;Agence du Médicament de Madagascar;3_040;0
+AIG;Active Ingredient Number;Active Ingredient Number;3_040;1
+ANVISA;National Health Surveillance Agency (ANVISA);National Health Surveillance Agency (ANVISA);3_040;2
+ARFA;Agência de Regulação e Supervisão dos Produtos Farmacêuticos e Alimentares (ARFA);Agência de Regulação e Supervisão dos Produtos Farmacêuticos e Alimentares (ARFA);3_040;3
+ARTG_ID;Australian Register of Therapeutic Goods;Australian Register of Therapeutic Goods;3_040;4
+AU_PROSTHESES_REBATE_CODE;Australian Prostheses Rebate Code;Australian Prostheses Rebate Code;3_040;5
+BFR;BFR;BFR;3_040;6
+BNDA;Bahamas National Drug Agency (BNDA);Bahamas National Drug Agency (BNDA);3_040;7
+BUYER_ASSIGNED;Buyer Assigned;Buyer Assigned;3_040;8
+CDSCO;Central Drugs Standard Control Organization (CDSCO);Central Drugs Standard Control Organization (CDSCO);3_040;9
+DAV;Drug Administration of Vietnam (DAV);Drug Administration of Vietnam (DAV);3_040;10
+DDA_NP;Department of Drug Administration (DDA);Department of Drug Administration (DDA);3_040;11
+DDF_KH;Department of Drugs and Food (DDF);Department of Drugs and Food (DDF);3_040;12
+DDSME;Department of Drug Supply and Medical Equipment;Department of Drug Supply and Medical Equipment;3_040;13
+DGDA;Directorate General of Drug Administration (DGDA);Directorate General of Drug Administration (DGDA);3_040;14
+DGPML_BF;Direction Générale de la Pharmacie, du Médicament et des Laboratoires (DGPML);Direction Générale de la Pharmacie, du Médicament et des Laboratoires (DGPML);3_040;15
+DGPML_BJ;Direction General of Pharmacy, Medicine and Pharmacy  Laboratories (DGPML);Direction General of Pharmacy, Medicine and Pharmacy  Laboratories (DGPML);3_040;16
+DGRS;Direccion General de Regulacion Sanitaria (DGRS);Direccion General de Regulacion Sanitaria (DGRS);3_040;17
+DIGEMID_MINSA;Dirección General de Medicamentos (DIGEMID-MINSA);Dirección General de Medicamentos (DIGEMID-MINSA);3_040;18
+DIN;DIN;DIN;3_040;19
+DIN_HM;DIN HM;DIN HM;3_040;20
+DISTRIBUTOR_ASSIGNED;not defined;not defined;3_040;21
+DLP;Direction des Laboratoires et des Pharmacies;Direction des Laboratoires et des Pharmacies;3_040;22
+DNM_SV;Dirección Nacional de Medicamentos (DNM);Dirección Nacional de Medicamentos (DNM);3_040;23
+DNPL;Direction Nationale de la Pharmacie et du Laboratoire;Direction Nationale de la Pharmacie et du Laboratoire;3_040;24
+DPL ;Direction de la Pharmacie et des Laboratoires;Direction de la Pharmacie et des Laboratoires;3_040;25
+DPLMT;Direction des Dervices Pharmaceutiques des Laboratoires et de la Médecine Traditionnelle;Direction des Dervices Pharmaceutiques des Laboratoires et de la Médecine Traditionnelle;3_040;26
+DPM_CD;Direction de la Pharmacie et du Médicament DPM Democratic Republic of Congo ;Direction de la Pharmacie et du Médicament DPM Democratic Republic of Congo ;3_040;27
+DPM_CI;Direction de la Pharmacie et du Médicament DPM Côte d'Ivoire ;Direction de la Pharmacie et du Médicament DPM Côte d'Ivoire ;3_040;28
+DPM_ML;Direction de la Pharmacie et du Médicament;Direction de la Pharmacie et du Médicament;3_040;29
+DPML;Direction de la Pharmacie, du Médicament et des Laboratoires (DPML);Direction de la Pharmacie, du Médicament et des Laboratoires (DPML);3_040;30
+DPMLMOH;Department of Pharmacy, Medicines and Laboratory, Ministry of Health;Department of Pharmacy, Medicines and Laboratory, Ministry of Health;3_040;31
+DRA_BT;Drug Regulatory Authority (DRA);Drug Regulatory Authority (DRA);3_040;32
+DRAP;Drug Regulatory Authority of Pakistan (DRAP);Drug Regulatory Authority of Pakistan (DRAP);3_040;33
+DTAMOH;Directorate of Technical Affairs in the Ministry of Health;Directorate of Technical Affairs in the Ministry of Health;3_040;34
+EDA;Egyptian Drug Authority (EDA);Egyptian Drug Authority (EDA);3_040;35
+EPD;EPD;EPD;3_040;36
+EU_MEDICAL_PRODUCT_NUMBER;EU Medical Product Number;EU Medical Product Number;3_040;37
+FDA_MEDICAL_DEVICE_LISTING;FDA Medical Device Listing;FDA Medical Device Listing;3_040;38
+FDA_MM;Food and Drug Administration (FDA)  Myanmar ;Food and Drug Administration (FDA)  Myanmar ;3_040;39
+FDA_NDC_10;FDA NDC 10;FDA NDC 10;3_040;40
+FDA_NDC_11;FDA NDC 11;FDA NDC 11;3_040;41
+FDA_PH;Food and Drug Administration (FDA) Philippines;Food and Drug Administration (FDA) Philippines;3_040;42
+FDA_PRODUCT_CODE;FDA Product Code;FDA Product Code;3_040;43
+FDA_TH;Thai Food and Drug Administration (Thai FDA);Thai Food and Drug Administration (Thai FDA);3_040;44
+FDB;Food and Drugs Board (FDB);Food and Drugs Board (FDB);3_040;45
+FDD;Food and Drug Department;Food and Drug Department;3_040;46
+FMHACA_ET;Food, Medicine and Health Care Administration and Control of Ethiopia (FMHACA);Food, Medicine and Health Care Administration and Control of Ethiopia (FMHACA);3_040;47
+FOR_INTERNAL_USE_1;For internal use 1;For internal use 1;3_040;48
+FOR_INTERNAL_USE_10;For internal use 10;For internal use 10;3_040;49
+FOR_INTERNAL_USE_11;For internal use 11;For internal use 11;3_040;50
+FOR_INTERNAL_USE_12;For internal use 12;For internal use 12;3_040;51
+FOR_INTERNAL_USE_13;For internal use 13;For internal use 13;3_040;52
+FOR_INTERNAL_USE_14;For internal use 14;For internal use 14;3_040;53
+FOR_INTERNAL_USE_15;For internal use 15;For internal use 15;3_040;54
+FOR_INTERNAL_USE_16;For internal use 16;For internal use 16;3_040;55
+FOR_INTERNAL_USE_17;For internal use 17;For internal use 17;3_040;56
+FOR_INTERNAL_USE_18;For internal use 18;For internal use 18;3_040;57
+FOR_INTERNAL_USE_19;For internal use 19;For internal use 19;3_040;58
+FOR_INTERNAL_USE_2;For internal use 2;For internal use 2;3_040;59
+FOR_INTERNAL_USE_20;For internal use 20;For internal use 20;3_040;60
+FOR_INTERNAL_USE_3;For internal use 3;For internal use 3;3_040;61
+FOR_INTERNAL_USE_4;For internal use 4;For internal use 4;3_040;62
+FOR_INTERNAL_USE_5;For internal use 5;For internal use 5;3_040;63
+FOR_INTERNAL_USE_6;For internal use 6;For internal use 6;3_040;64
+FOR_INTERNAL_USE_7;For internal use 7;For internal use 7;3_040;65
+FOR_INTERNAL_USE_8;For internal use 8;For internal use 8;3_040;66
+FOR_INTERNAL_USE_9;For internal use 9;For internal use 9;3_040;67
+GDPA;General Directorate of Pharmaceutical Affairs (GDPA);General Directorate of Pharmaceutical Affairs (GDPA);3_040;68
+GTIN_12;GTIN 12;GTIN 12;3_040;69
+GTIN_13;GTIN 13;GTIN 13;3_040;70
+GTIN_14;GTIN 14;GTIN 14;3_040;71
+GTIN_8;GTIN 8;GTIN 8;3_040;72
+HIBC;HIBC;HIBC;3_040;73
+ICCBBA;ICCBBA;ICCBBA;3_040;74
+INDUSTRY_ASSIGNED;Industry Assigned;Industry Assigned;3_040;75
+INVIMA;INVIMA;INVIMA;3_040;76
+ISBN_NUMBER;ISBN number;ISBN number;3_040;77
+ISSN_NUMBER;ISSN number;ISSN number;3_040;78
+JFDA;Jordan Food and Drug Administration;Jordan Food and Drug Administration;3_040;79
+LMHPRA;Liberia Medicines and Health Products Regulatory Authority;Liberia Medicines and Health Products Regulatory Authority;3_040;80
+LOTTERY_GAME_NUMBER;Lottery Game Number;Lottery Game Number;3_040;81
+LOTTERY_PACK_BOOK_NUMBER;Lottery pack book number;Lottery pack book number;3_040;82
+MANUFACTURER_PART_NUMBER;Manufacturer part number;Manufacturer part number;3_040;83
+MCAZ;Medicines Control Authority of Zimbabwe (MCAZ);Medicines Control Authority of Zimbabwe (MCAZ);3_040;84
+MCC;Medicines Control Council (MCC);Medicines Control Council (MCC);3_040;85
+MDL;MDL;MDL;3_040;86
+MINSA;Ministerio de Salud - Direccion de Farmacias (MINSA);Ministerio de Salud - Direccion de Farmacias (MINSA);3_040;87
+MISAU;Departamento Farmacêutico-MISAU;Departamento Farmacêutico-MISAU;3_040;88
+MODEL_NUMBER;Model Number;Model Number;3_040;89
+MOH_AO;Ministry of Health (MOH) Angola;Ministry of Health (MOH) Angola;3_040;90
+MOH_BB;Ministry of Health (MOH)  Barbados ;Ministry of Health (MOH)  Barbados ;3_040;91
+MOH_BW;Drugs Regulatory Unit (DRU) of the Ministry of Health (MOH);Drugs Regulatory Unit (DRU) of the Ministry of Health (MOH);3_040;92
+MOH_GY;Ministry of Health - Guyana ;Ministry of Health - Guyana ;3_040;93
+MOH_MA;Ministry of Health - Morocco ;Ministry of Health - Morocco ;3_040;94
+MOH_MR;Ministry of Health: Pharmacy and Laboratory;Ministry of Health: Pharmacy and Laboratory;3_040;95
+MOH_RW;Ministry of Health - Rwanda ;Ministry of Health - Rwanda ;3_040;96
+MOH_SZ;Ministry of Health (MOH) Swaziland;Ministry of Health (MOH) Swaziland;3_040;97
+MOH_TJ;Ministry of Health - Tajikistan ;Ministry of Health - Tajikistan ;3_040;98
+MOH_TT;Chemistry Food and Drugs Division/Ministry of Health (CFFD/MOH);Chemistry Food and Drugs Division/Ministry of Health (CFFD/MOH);3_040;99
+MOH_UG;National Drug Authority;National Drug Authority;3_040;100
+MOH_UZ;Ministry of Health - Uzbekistan;Ministry of Health - Uzbekistan;3_040;101
+MOHSW;Ministry of Health & Social Welfare;Ministry of Health & Social Welfare;3_040;102
+MOPH_NE;Ministry of Public Health;Ministry of Public Health;3_040;103
+MOPH_TD;Minister of Public Health: Direction de la Pharmacie, du Médicament et des Laboratoires;Minister of Public Health: Direction de la Pharmacie, du Médicament et des Laboratoires;3_040;104
+MRA;Medicines Regulatory Authority (MRA) Palestine;Medicines Regulatory Authority (MRA) Palestine;3_040;105
+MRA_PG;Medicines Regulatory Authority (MRA) Papua New Guinea;Medicines Regulatory Authority (MRA) Papua New Guinea;3_040;106
+MRA_SS;Medicines Regulatory Authority (MRA) South Sudan ;Medicines Regulatory Authority (MRA) South Sudan ;3_040;107
+MSD;Unidad de Medicamentos y Tecnología en Salud (MSD);Unidad de Medicamentos y Tecnología en Salud (MSD);3_040;108
+MSP;Direccion General de Drogas y Farmacias del Ministerio de Salud Pública (DGDF/MSP);Direccion General de Drogas y Farmacias del Ministerio de Salud Pública (DGDF/MSP);3_040;109
+MSPAS_CG;Ministère de la Santé Publique et des Affairs Sociales: Direction des Pharmacies, du Médicament et des Laboratoires ;Ministère de la Santé Publique et des Affairs Sociales: Direction des Pharmacies, du Médicament et des Laboratoires ;3_040;110
+MSPAS_GT;Minsiterio de Salud Publica y Asistencia Social/Departamento de Regulación y Control de Productos Farmacéuticos y Afines (MSPAS);Minsiterio de Salud Publica y Asistencia Social/Departamento de Regulación y Control de Productos Farmacéuticos y Afines (MSPAS);3_040;111
+MSPBS;Ministerio de Salud Pública y Bienestar Social (MSPBS);Ministerio de Salud Pública y Bienestar Social (MSPBS);3_040;112
+NABCA_PRODUCT_CODE;NABCA product code;NABCA product code;3_040;113
+NADFC;National Agency of Drug and Food Control (NADFC);National Agency of Drug and Food Control (NADFC);3_040;114
+NAFDAC_NG;National Agency for Food and Drug Administration and Control (NAFDAC);National Agency for Food and Drug Administration and Control (NAFDAC);3_040;115
+NAN;NAN;NAN;3_040;116
+NCM;National Center for Medicines, Medical Devices and Medical Equipment Expertise;National Center for Medicines, Medical Devices and Medical Equipment Expertise;3_040;117
+NMFA;National Medicines and Food Administration;National Medicines and Food Administration;3_040;118
+NMPB_SD;National Medicines and Poisons Board (NMPB);National Medicines and Poisons Board (NMPB);3_040;119
+NMRA_LK;National Medicines Regulatory Authority (NMRA);National Medicines Regulatory Authority (NMRA);3_040;120
+NMRC;Namibia Medicines Regulatory Council;Namibia Medicines Regulatory Council;3_040;121
+NPN;NPN;NPN;3_040;122
+NSN;NSN;NSN;3_040;123
+NUMERO_RDN;RDN;RDN;3_040;124
+NZ_MEDICINES_TERMINOLOGY_CODE;NZ Medicines Terminology Code;NZ Medicines Terminology Code;3_040;125
+PBSL;Pharmacy Board of Sierra Leone;Pharmacy Board of Sierra Leone;3_040;126
+PCOJ;Pharmacy Council of Jamaica (PCoJ);Pharmacy Council of Jamaica (PCoJ);3_040;127
+PHARMACODE_CH;Pharmacode CH;Pharmacode CH;3_040;128
+PIRC;Pharmaceutical Inspectorate and the Registration Committee;Pharmaceutical Inspectorate and the Registration Committee;3_040;129
+PLU;PLU;PLU;3_040;130
+PMPB;Pharmacy, Medicines and Poisons Board;Pharmacy, Medicines and Poisons Board;3_040;131
+PPB;Pharmacy and Poisons Board;Pharmacy and Poisons Board;3_040;132
+RVG;RVG;RVG;3_040;133
+RVH;RVH;RVH;3_040;134
+SAN_4;SAN 4;SAN 4;3_040;135
+SBDMA;Supreme Board for Drugs & Medical Appliances;Supreme Board for Drugs & Medical Appliances;3_040;136
+SCDMTE;The Scientific Centre of Drug and Medical Technologies Expertise (SCDMTE);The Scientific Centre of Drug and Medical Technologies Expertise (SCDMTE);3_040;137
+SFDA;State Food Drug Administration (SFDA);State Food Drug Administration (SFDA);3_040;138
+SMDC_UA;State Service of Ukraine on Medicines and Drugs Control (SMDC);State Service of Ukraine on Medicines and Drugs Control (SMDC);3_040;139
+SRAMA;State Regulatory Agency for Medical Activities;State Regulatory Agency for Medical Activities;3_040;140
+SUPPLIER_ASSIGNED;Supplier Assigned;Supplier Assigned;3_040;141
+TFDA;Tanzania Food and Drugs Authority (TFDA);Tanzania Food and Drugs Authority (TFDA);3_040;142
+WAND_NUMBER;WAND Number;WAND Number;3_040;143
+Z_INDEX;Z INDEX;Z INDEX;3_040;144
+ZAMRA;Zambia Medicines Regulatory Authority (ZAMRA);Zambia Medicines Regulatory Authority (ZAMRA);3_040;145
+001;Global Market;Global Market;0_091;0
+NON_EU;Non EU;Non EU;0_091;1
+D_A;Development Assistance;Development Assistance;0_091;2
+097;European Union;European Union;0_091;3
+DIRECT_SHIP_TO_CONSUMER;Direct Ship To Consumer;Direct Ship To Consumer;3_018;0
+DISPLAY_ITEM_FOLDED_ON_SHELF;Display Item Folded On Shelf;Display Item Folded On Shelf;3_018;1
+DISPLAY_ITEM_HANGING;Display Item Hanging;Display Item Hanging;3_018;2
+DISPLAY_ITEM_HANGING_FROM_SHELF;Display Item Hanging From  Shelf;Display Item Hanging From  Shelf;3_018;3
+DISPLAY_ITEM_STANDING;Display Item Standing;Display Item Standing;3_018;4
+DISPLAY_ITEM_STANDING_ON_SHELF;Display Item Standing On Shelf;Display Item Standing On Shelf;3_018;5
+IN_PACKAGE;In Package;In Package;3_018;6
+MAX_DOOR_DRAWER_LID_CLEARANCE;Max Door Drawer Lid Clearance;Max Door Drawer Lid Clearance;3_018;7
+MAX_DOOR_DRAWER_LID_CLEARANCE_W_HDL;Max Door Drawer Lid Clearance With Handle;Max Door Drawer Lid Clearance With Handle;3_018;8
+OUT_OF_PACKAGE;Out Of Package;Out Of Package;3_018;9
+RETAIL_DISPLAY;Retail Display;Retail Display;3_018;10
+FDR;Floor Display Ready Packaging;Floor Display Ready Packaging;7_224;0
+FND;Floor Non-Assembled Display Packaging;Floor Non-Assembled Display Packaging;7_224;1
+SDR;Shelf Display Ready Packaging;Shelf Display Ready Packaging;7_224;2
+SND;Shelf Non-Assembled Display Packaging;Shelf Non-Assembled Display Packaging;7_224;3
+UNS;Unspecified;Unspecified;7_224;4
+DANGER;Danger;Danger;5_029;0
+NOT_APPLICABLE;Not applicable;Not applicable;5_029;1
+UNSPECIFIED;Unspecified ;Unspecified ;5_029;2
+WARNING;Warning;Warning;5_029;3
+CORROSION;Corrosion;Corrosion;5_030;0
+ENVIRONMENT;Environment;Environment;5_030;1
+EXCLAMATION_MARK;Exclamation Mark;Exclamation Mark;5_030;2
+EXPLODING_BOMB;Exploding Bomb;Exploding Bomb;5_030;3
+FLAME;Flame;Flame;5_030;4
+FLAME_OVER_CIRCLE;Flame Over Circle;Flame Over Circle;5_030;5
+GAS_CYLINDER;Gas Cylinder;Gas Cylinder;5_030;6
+HEALTH_HAZARD;Health Hazard;Health Hazard;5_030;7
+NO_PICTOGRAM;No Pictogram;No Pictogram;5_030;8
+SKULL_AND_CROSSBONES;Skull and Crossbones;Skull and Crossbones;5_030;9
+CTCURBK;;;7_222;0
+CUSTOMS_TARIFF_NUMBER;;;7_222;1
+EU_EXCISE_PRODUCT_CODE;;;7_222;2
+FEACNRF;;;7_222;3
+HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM;;;7_222;4
+HARMONIZED_TARIFF_SCHEDULE_OF_THE_US;;;7_222;5
+INTRASTAT;;;7_222;6
+INTRASTAT_COMBINED_NOMENCLATURE;;;7_222;7
+MERCOSUR;;;7_222;8
+NETHERLANDS;;;7_222;9
+NOMENCLATURE_GENERALE_DES_PRODUITS;;;7_222;10
+TARIF_INTEGRE_DE_LA_COMMUNAUTE;;;7_222;11
+TN_VED;;;7_222;12
+10;Pallet 800 X 600 mm;Pallet 800 X 600 mm;7_225;0
+11;Pallet 800 X 1200 mm;Pallet 800 X 1200 mm;7_225;1
+12;Pallet 1200 X 1000 mm;Pallet 1200 X 1000 mm;7_225;2
+13;Pallet 600 X 400 mm;Pallet 600 X 400 mm;7_225;3
+14;Pallet 400 X 300 mm;Pallet 400 X 300 mm;7_225;4
+25;Australian Pallet;Australian Pallet;7_225;5
+27;Unspecified;Unspecified;7_225;6
+31;Pallet 1000 X 600 mm;Pallet 1000 X 600 mm;7_225;7
+32;Block Pallet;Block Pallet;7_225;8
+33;Dolly;Dolly;7_225;9
+35;Pallet 1000 X 1200 mm;Pallet 1000 X 1200 mm;7_225;10
+38;Horizontal Drum Pallet;Horizontal Drum Pallet;7_225;11
+39;IBC Pallet;IBC Pallet;7_225;12
+40;Pallet 1219 X 1016 mm;Pallet 1219 X 1016 mm;7_225;13
+41;Pallet 1067 X 1067 mm;Pallet 1067 X 1067 mm;7_225;14
+42;Pallet 1100 X 1100 mm;Pallet 1100 X 1100 mm;7_225;15
+43;Pallet 1140 X 1140 mm;Pallet 1140 X 1140 mm;7_225;16
+44;Skid;Skid;7_225;17
+45;Stringer Pallet;Stringer Pallet;7_225;18
+46;Vertical Drum Pallet;Vertical Drum Pallet;7_225;19
+47;Pallet 800 X 400 mm;Pallet 800 X 400 mm;7_225;20
+48;1/2 ISO 3 Pallet;1/2 ISO 3 Pallet;7_225;21
+49;1/4 ISO 3 Pallet;1/4 ISO 3 Pallet;7_225;22
+50;Custom Platform;Custom Platform;7_225;23
+9;Slip sheet;Slip sheet;7_225;24
+FINAL;Final;Final;5_131;0
+PRELIMINARY;Preliminary;Preliminary;5_131;1
+360_DEGREE_IMAGE;360 Degree Image;360 Degree Image;6_445;0
+ASSEMBLY_INSTRUCTIONS;Assembly Instructions;Assembly Instructions;6_445;1
+AUDIO;Audio;Audio;6_445;2
+CERTIFICATION;Certification;Certification;6_445;3
+CHEMICAL_ASSESSMENT_SUMMARY;Chemical Assessment Summary;Chemical Assessment Summary;6_445;4
+CHEMICAL_SAFETY_REPORT;Chemical Safety Report;Chemical Safety Report;6_445;5
+CHILD_NUTRITION_LABEL;Child Nutrition Label;Child Nutrition Label;6_445;6
+CONSUMER_HANDLING_AND_STORAGE;Consumer Handling and Storage;Consumer Handling and Storage;6_445;7
+CROSSSECTION_VIEW;Crosssection View;Crosssection View;6_445;8
+DIET_CERTIFICATE;Diet Certificate;Diet Certificate;6_445;9
+DOCUMENT;Document;Document;6_445;10
+DOP_SHEET;Dop Sheet;Dop Sheet;6_445;11
+DRUG_FACT_LABEL;Drug Fact Label;Drug Fact Label;6_445;12
+ENERGY_LABEL;Energy Label;Energy Label;6_445;13
+GROUP_CHARACTERISTIC_SHEET;Group Characteristic Sheet;Group Characteristic Sheet;6_445;14
+HAZARDOUS_SUBSTANCES_DATA;Hazardous Substances Data;Hazardous Substances Data;6_445;15
+IFU;IFU;IFU;6_445;16
+INTERNAL_VIEW;Internal View;Internal View;6_445;17
+LOGO;Logo;Logo;6_445;18
+MARKETING_INFORMATION;Marketing Information;Marketing Information;6_445;19
+MATERIAL_SAMPLES;Material Samples;Material Samples;6_445;20
+MOBILE_DEVICE_IMAGE;Mobile Device Image;Mobile Device Image;6_445;21
+NUTRITION_FACT_LABEL;Nutrition Fact Label;Nutrition Fact Label;6_445;22
+ORGANIC_CERTIFICATE;Organic Certificate;Organic Certificate;6_445;23
+OTHER_EXTERNAL_INFORMATION;Other External Information;Other External Information;6_445;24
+OUT_OF_PACKAGE_IMAGE;Out of Package Image;Out of Package Image;6_445;25
+PACKAGING_ARTWORK;Packaging Artwork;Packaging Artwork;6_445;26
+PLANOGRAM;Planogram;Planogram;6_445;27
+PRODUCT_FORMULATION_STATEMENT;Product Formulation Statement;Product Formulation Statement;6_445;28
+PRODUCT_IMAGE;Product Image;Product Image;6_445;29
+PRODUCT_LABEL_IMAGE;Product Label Image;Product Label Image;6_445;30
+PRODUCT_WEBSITE;Product Website;Product Website;6_445;31
+QR_CODE;Link to QR Code;Link to QR Code;6_445;32
+QUALITY_CONTROL_PLAN;Quality Control Plan;Quality Control Plan;6_445;33
+RECIPE_WEBSITE;Recipe Website;Recipe Website;6_445;34
+REGULATORY_INSPECTION_AUDIT;Regulatory Inspection Audit;Regulatory Inspection Audit;6_445;35
+RISK_ANALYSIS_DOCUMENT;Risk Analysis Document;Risk Analysis Document;6_445;36
+SAFETY_DATA_SHEET;Safety Data Sheet;Safety Data Sheet;6_445;37
+SAFETY_SUMMARY_SHEET;Safety Summary Sheet;Safety Summary Sheet;6_445;38
+SAMPLE_SHIPPING_ORDER;Sample Shipping Order;Sample Shipping Order;6_445;39
+SUMMARY_OF_PRODUCT_CHARACTERISTICS;Summary of Product Characteristics;Summary of Product Characteristics;6_445;40
+TESTING_METHODOLOGY_RESULTS;Testing Methodology Results;Testing Methodology Results;6_445;41
+TRADE_ITEM_DESCRIPTION;Trade Item Description;Trade Item Description;6_445;42
+TRADE_ITEM_IMAGE_WITH_DIMENSIONS;Trade Item Image With Dimensions;Trade Item Image With Dimensions;6_445;43
+VIDEO;Video;Video;6_445;44
+WARRANTY_INFORMATION;Warranty Information;Warranty Information;6_445;45
+WEBSITE;Website;Website;6_445;46
+ZOOM_VIEW;Zoom View;Zoom View;6_445;47
+AEROSOL_REVERSE_EPSILON;Aerosol_Reverse Epsilon;Aerosol_Reverse Epsilon;3_067;0
+AGRICULTURE_PROTECTION_REGULATION;Agriculture_Protection Regulation;Agriculture_Protection Regulation;3_067;1
+ANIMAL_ID_HEALTH_MARK;Animal ID Health Mark;Animal ID Health Mark;3_067;2
+BATTERY_DIRECTIVE;Battery Directive;Battery Directive;3_067;3
+BPA_REGULATION;BPA Regulation ;BPA Regulation ;3_067;4
+BIOCIDE_REGULATION;Biocide Regulation;Biocide Regulation;3_067;5
+CE;CE;CE;3_067;6
+COMPLIANT_WITH_FAIR_LABOR_STANDARDS_ACT;Compliant With Fair Labor Standards Act;Compliant With Fair Labor Standards Act;3_067;7
+COMPLIANT_WITH_FLAMMABILITY_ACT;Compliant With Flammability Act;Compliant With Flammability Act;3_067;8
+COMPLIANT_WITH_FUR_PRODUCT_LABELING_ACT;Compliant With Fur Product Labeling Act;Compliant With Fur Product Labeling Act;3_067;9
+COMPLIANT_WITH_STATE_ENVIRONMENT_REQUIREMENTS;Compliant With State Environment Requirements;Compliant With State Environment Requirements;3_067;10
+COMPLIANT_WITH_TEXTILE_FIBER_PRODUCT_IDENTIFICATION;Compliant With Textile Fiber Product Identification;Compliant With Textile Fiber Product Identification;3_067;11
+COMPLIANT_WITH_WOOL_PRODUCTS_LABELING_ACT;Compliant With Wool Products Labeling Act;Compliant With Wool Products Labeling Act;3_067;12
+CONSUMER_PRODUCT_SAFETY;Consumer_Product Safety;Consumer_Product Safety;3_067;13
+CONTAINS_COMPOSITE_WOOD;Contains Composite Wood;Contains Composite Wood;3_067;14
+COSMETIC_INFORMATION_REGULATION;Cosmetic_Information Regulation;Cosmetic_Information Regulation;3_067;15
+DETERGENTS_SAFETY_REGULATION;Detergents_Safety Regulation;Detergents_Safety Regulation;3_067;16
+E_MARK;E-mark;E-mark;3_067;17
+EFFICIENCY_OF_LAMPS_LUMINARIES;Efficiency of Lamps Luminaries;Efficiency of Lamps Luminaries;3_067;18
+EMC_DIRECTIVE;EMC Directive;EMC Directive;3_067;19
+ENCLOSED_ATTACHED_INFORMATION;Enclosed Attached Information;Enclosed Attached Information;3_067;20
+ENERGY_GUIDE_LABEL_REQUIRED;Energy Guide Label Required;Energy Guide Label Required;3_067;21
+EU_REGULATION_FOR_FOODSTUFF;EU Regulation Label Required;EU Regulation Label Required;3_067;22
+FEED_SAFETY_REGULATION;Feed_Safety Regulation;Feed_Safety Regulation;3_067;23
+FOOD_FOR_SPECIAL_PURPOSES;Food For Special Purposes;Food For Special Purposes;3_067;24
+FOOD_INFORMATION_REGULATION;Food_Information Regulation;Food_Information Regulation;3_067;25
+FOOD_LABELLING_UNDER_2_YEARS_OF_AGE;Food Labelling Under 2 Years of Age;Food Labelling Under 2 Years of Age;3_067;26
+FOOD_LABELLING_UNDER_4_YEARS_OF_AGE;Food Labelling Under 2 Years of Age;Food Labelling Under 2 Years of Age;3_067;27
+FOOD_SUPPLEMENT_DIRECTIVE;Food_Supplement Directive;Food_Supplement Directive;3_067;28
+FREE_PHARMACEUTICAL_PRODUCTS_DIRECTIVE;Free Pharmaceutical Products Directive;Free Pharmaceutical Products Directive;3_067;29
+FRENCH_SPARE_PARTS_REGULATION;French Spare Parts Regulation;French Spare Parts Regulation;3_067;30
+HERBICIDE_REGULATION;Herbicide Regulation;Herbicide Regulation;3_067;31
+INFANT_FORMULA_LABELLING;Infant formula Labelling;Infant formula Labelling;3_067;32
+INTENDED_TO_COME_INTO_CONTACT_WITH_FOOD;Intended to Come Into Contact with Food;Intended to Come Into Contact with Food;3_067;33
+LVD_DIRECTIVE;LVD Directive;LVD Directive;3_067;34
+MARKET_AUTHORISATION;Market Authorisation;Market Authorisation;3_067;35
+MEDICAL_DEVICE_SAFETY;Medical_Device Safety;Medical_Device Safety;3_067;36
+MINIMUM_DURABILITY;Minimum Durability;Minimum Durability;3_067;37
+NANO_MATERIALS_PRESENCE;Nano Materials Presence;Nano Materials Presence;3_067;38
+PACKAGING_SAFETY_DIRECTIVE;Packaging Safety Directive;Packaging Safety Directive;3_067;39
+PERIOD_SAFE_TO_USE_AFTER_OPENING;Period Safe To Use After Opening;Period Safe To Use After Opening;3_067;40
+PESTICIDE_REGULATION;Pesticide Regulation;Pesticide Regulation;3_067;41
+PHARMACEUTICAL_PRODUCT_DIRECTIVE;Pharmaceutical_Product Directive;Pharmaceutical_Product Directive;3_067;42
+PRODUCT_OF_DAILY_USE_DIRECTIVE;Product of Daily Use Directive;Product of Daily Use Directive;3_067;43
+PRODUCT_LABELING_REGULATION;Product Labelling Regulation;Product Labelling Regulation;3_067;44
+PROP_65;Prop_65;Prop_65;3_067;45
+REGULATED_BY_AGENCY;Regulated by Agency;Regulated by Agency;3_067;46
+RETURNING_OF_ELECTRONICAL_PRODUCT_DIRECTIVE;Returning of Electronic Product Directive;Returning of Electronic Product Directive;3_067;47
+ROHS_DIRECTIVE;ROHS Directive;ROHS Directive;3_067;48
+SECURITY_OF_ELECTRONIC_PRODUCTS_DIRECTIVE;Security of Electronic Products Directive;Security of Electronic Products Directive;3_067;49
+TEXTILE_LABELLING_REGULATION;Textile_Labelling Regulation;Textile_Labelling Regulation;3_067;50
+TOY_SAFETY_DIRECTIVE;Toy_Safety Directive;Toy_Safety Directive;3_067;51
+TRACEABILITY_REGULATION;Traceability Regulation;Traceability Regulation;3_067;52
+TRADE_ITEM_TESTED_DIRECTIVE;Trade Item Tested Directive;Trade Item Tested Directive;3_067;53
+TREATED_WITH_HERBICIDE_REGULATION;Treated with Herbicide Regulation;Treated with Herbicide Regulation;3_067;54
+TREATED_WITH_PESTICIDE_REGULATION;Treated with Pesticide Regulation.;Treated with Pesticide Regulation.;3_067;55
+UNDERWATER_LIGHTING;Underwater Lighting;Underwater Lighting;3_067;56
+UVA;Uva;Uva;3_067;57
+VEHICLE_LICENSE_PLATE_REGISTRATION;Vehicle License Plate Registration ;Vehicle License Plate Registration ;3_067;58
+VEHICLE_LIGHTING_COMPLIANT;Vehicle Lighting Compliant;Vehicle Lighting Compliant;3_067;59
+VOLATILE_ORGANIC_COMPOUND_COMPLIANT;Volatile Organic Compound Compliant;Volatile Organic Compound Compliant;3_067;60
+STORAGE_UNSPECIFIED;Storage Unspecified;Storage Unspecified;7_229;0
+TRANSPORT_AIR;Transport Air;Transport Air;7_229;1
+TRANSPORT_INLAND_WATER;;;7_229;2
+TRANSPORT_MARITIME;Transport Maritime;Transport Maritime;7_229;3
+TRANSPORT_RAIL;Transport Rail;Transport Rail;7_229;4
+TRANSPORT_ROAD;Transport Road;Transport Road;7_229;5
+TRANSPORT_UNSPECIFIED;Transport Unspecified;Transport Unspecified;7_229;6
+UNSPECIFIED;Unspecified;Unspecified;7_229;7
+BASE_UNIT_OR_EACH;Base Unit or Each;Base Unit or Each;3_007;0
+CASE;Case;Case;3_007;1
+DISPLAY_SHIPPER;Display Shipper;Display Shipper;3_007;2
+MIXED_MODULE;Mixed Module;Mixed Module;3_007;3
+PACK_OR_INNER_PACK;Pack or Inner Pack;Pack or Inner Pack;3_007;4
+PALLET;Pallet;Pallet;3_007;5
+TRANSPORT_LOAD;Transport Load;Transport Load;3_007;6

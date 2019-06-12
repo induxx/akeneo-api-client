@@ -1,0 +1,550 @@
+code;label-en_GB;label-fr_BE;label-nl_BE;attributes;disabledByParent;enabled;parent;simple_name-en_GB;simple_name-fr_BE;simple_name-nl_BE;sort_order
+master;;;;Alternatives;0;1;;;;;
+grondverzet_0;Grondverzet;;Grondverzet;Alternatives,transporttest;0;1;master;;;;0
+bulldozersengrader_0;"Bulldozers en grader";;"Bulldozers en graders";laser,pressurized_cabin,Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;grondverzet_0;;;;0
+bulldozer_0;Bulldozer;;Bulldozers;laser,pressurized_cabin,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,steering_ats,steering_gps,blade_s,blade_su,blade_vpat,ripper;0;1;bulldozersengrader_0;;;;0
+klein_0;"Klein ";;"Klein ";laser,probe,pressurized_cabin,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Withoutcabine,steering_ats,steering_gps,blade_s,blade_su,blade_vpat,ripper;0;1;bulldozer_0;;;;0
+smallbulldozers;"< 8,5 ton";;"< 8,5 ton";;0;1;klein_0;;;;0
+85tontyped4k_0;"8.5 ton type D4K";;"8,5 ton (= Type D4K)";;0;1;klein_0;;;;1
+95tontyped5k_1;"9.5 ton type D5K";;"9,5 ton (= Type D5K)";;0;1;klein_0;;;;2
+middelgroot_3;"Middelgroot ";;"Middelgroot ";probe;0;1;bulldozer_0;;;;1
+14tontyped6k_3;"14 ton type D6K";;"14 ton (= Type D6K)";probe;0;1;middelgroot_3;;;;0
+18tontyped6n_4;"18 ton type D6N";;"18 ton (= Type D6N)";;0;1;middelgroot_3;;;;1
+24tontyped6t_5;"24 ton type D6T";;"24 ton (= Type D6T)";;0;1;middelgroot_3;;;;2
+groot_6;"Groot ";;"Groot ";;0;1;bulldozer_0;;;;2
+285tontyped7t_6;"28.5 ton type D7T";;"28,5 ton (= Type D7T)";;0;1;groot_6;;;;0
+39tontyped8t_7;"39 ton type D8T";;"39 ton (= Type D8T)";;0;1;groot_6;;;;1
+50tontyped9t_8;"50 ton type D9T";;"50 ton (= Type D9T)";;0;1;groot_6;;;;2
+66tontyped10t_9;"66 ton type D10T";;"66 ton (= Type D10T)";;0;1;groot_6;;;;3
+104tontyped11t_10;"104 ton type D11T";;"104 ton (= Type D11T)";;0;1;groot_6;;;;4
+motorgrader_11;Motorgrader;;Motorgraders;laser,probe,pressurized_cabin,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,steering_ats,steering_gps,frontblade_pushblade,ripper;0;1;bulldozersengrader_0;;;;1
+klein_11;Klein;;Klein;laser,probe,pressurized_cabin,Alternatives,bemanning,Uit_te_voeren_werken,steering_ats,steering_gps,frontblade_pushblade,ripper;0;1;motorgrader_11;;;;0
+18tontype120m_11;"6-12 ton";;"6-12 ton";;0;1;klein_11;;;;0
+12_14ton;12-14ton;;">12-14 ton";;0;1;klein_11;;;;1
+middelgroot_12;Middelgroot;;Middelgroot;;0;1;motorgrader_11;;;;1
+20tontype140m_12;"18 ton type 120M";;"18 ton (= Type 120M)";;0;1;middelgroot_12;;;;0
+groot_14;Groot;;Groot;;0;1;motorgrader_11;;;;2
+32tontype16m3_14;"20 ton (= Type 140M)";;"20 ton (= Type 140M)";;0;1;groot_14;;;;0
+21ton;"21 ton type 160M";;"21 ton (= Type 160M)";;0;1;groot_14;;;;1
+tractormetkilverbord_15;"Tractor met kilverbord";;"Tractoren met kilverbord";laser,pressurized_cabin,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,steering_ats,steering_gps;0;1;bulldozersengrader_0;;;;2
+klein_15;klein;;Klein;;0;1;tractormetkilverbord_15;;;;0
+2mbreedte_15;"2 m breedte";;"2m breedte";laser,pressurized_cabin,Alternatives,bemanning,Uit_te_voeren_werken,steering_ats,steering_gps;0;1;klein_15;;;;0
+middelgroot_16;middelgroot;;Middelgroot;;0;1;tractormetkilverbord_15;;;;1
+4mbreedte_16;"4m breedte";;"4m breedte";;0;1;middelgroot_16;;;;0
+groot_17;groot;;Groot;;0;1;tractormetkilverbord_15;;;;2
+6mbreedte_17;"6m breedte";;"6m breedte";;0;1;groot_17;;;;0
+hydraulischegraafkranen_18;"Hydraulische graafkranen";;"Hydraulische graafkranen";pressurized_cabin,Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;grondverzet_0;;;;1
+rupskranen_18;Rupskranen;;Rupskranen;laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,Compation_wheel;0;1;hydraulischegraafkranen_18;;;;0
+1ton6ton_18;"1 ton - 6 ton";;"Minigraver (0-8 ton)";laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,Withoutcabine,inside_turner;0;1;rupskranen_18;;;;0
+0ton1ton_18;"0 ton - 1 ton";;"0-1 ton";laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,Compation_wheel;0;1;1ton6ton_18;;;;0
+1ton2ton_19;"1 ton - 2 ton";;">1-2 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Hybride,Rippertand,inside_turner;0;1;1ton6ton_18;;;;1
+2ton3ton_20;"2 ton - 3 ton";;">2-3 ton";;0;1;1ton6ton_18;;;;2
+3ton4ton_21;"3 ton - 4 ton";;">3-4 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Hybride,Rippertand,inside_turner;0;1;1ton6ton_18;;;;3
+4ton5ton_22;"4 ton - 5 ton";;">4-5 ton";;0;1;1ton6ton_18;;;;4
+5ton6ton_23;"5 ton - 6 ton";;">5-6 ton";;0;1;1ton6ton_18;;;;5
+6ton8ton_24;"6 ton - 8 ton";;">6-8 ton";;0;1;1ton6ton_18;;;;6
+6ton20ton_24;">8 ton - 20 ton";;">8-20 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,triple_boom,inside_turner;0;1;rupskranen_18;;;;1
+8ton10ton_25;"8 ton - 10 ton";;">8-10 ton";;0;1;6ton20ton_24;;;;0
+10ton12ton_26;"10 ton - 12 ton";;">10-12 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,triple_boom,inside_turner;0;1;6ton20ton_24;;;;1
+12ton14ton_27;"12 ton - 14 ton";;">12-14 ton";;0;1;6ton20ton_24;;;;2
+14ton16ton_28;"14 ton - 16 ton";;">14-16 ton";;0;1;6ton20ton_24;;;;3
+16ton18ton_29;"16 ton - 18 ton";;">16-18 ton";;0;1;6ton20ton_24;;;;4
+18ton20ton_30;"18 ton - 20 ton";;">18-20 ton";;0;1;6ton20ton_24;;;;5
+20ton35ton_31;">20 ton - 35 ton";;">20-35 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,semi_automatic,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,weight_system,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,cabine_protection,inside_turner;0;1;rupskranen_18;;;;2
+20ton22ton_31;"20 ton - 22 ton";;">20-22 ton";;0;1;20ton35ton_31;;;;0
+22ton24ton_32;"22 ton - 24 ton";;">22-24 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,semi_automatic,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,weight_system,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,cabine_protection,inside_turner;0;1;20ton35ton_31;;;;1
+24ton26ton_33;"24 ton - 26 ton";;">24-26 ton";;0;1;20ton35ton_31;;;;2
+26ton28ton_34;"26 ton - 28 ton";;">26-28 ton";;0;1;20ton35ton_31;;;;3
+28ton30ton_35;"28 ton - 30 ton";;">28-30 ton";;0;1;20ton35ton_31;;;;4
+30ton35ton_36;"30 ton - 35 ton";;">30-35 ton";;0;1;20ton35ton_31;;;;5
+35ton50ton_37;">35 ton - 50 ton";;">35-50 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,semi_automatic,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,weight_system,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,cabine_protection;0;1;rupskranen_18;;;;3
+35ton40ton_37;"35 ton - 40 ton";;">35-40 ton";;0;1;35ton50ton_37;;;;0
+40ton45ton_38;"40 ton - 45 ton";;">40-45 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,semi_automatic,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,weight_system,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,cabine_protection;0;1;35ton50ton_37;;;;1
+45ton50ton_39;"45 ton - 50 ton";;">45-50 ton";;0;1;35ton50ton_37;;;;2
+50ton_40;"> 50 ton";;">50 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,cabine_protection;0;1;rupskranen_18;;;;4
+50ton60ton_40;"50 ton - 60 ton";;">50-60 ton";;0;1;50ton_40;;;;0
+60ton70ton_41;"60 ton - 70 ton";;">60-70 ton";steering,laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,steering_ats,steering_gps,cabine_protection;0;1;50ton_40;;;;1
+70ton80ton_42;"70 ton - 80 ton";;">70-80 ton";;0;1;50ton_40;;;;2
+80ton90ton_43;"80 ton - 90 ton";;">80-90 ton";;0;1;50ton_40;;;;3
+90ton100ton_44;"90 ton - 100 ton";;">90-100 ton";;0;1;50ton_40;;;;4
+100ton_45;"> 100 ton";;">100 ton";;0;1;50ton_40;;;;5
+overslagkranen_46;Overslagkranen;;Overslagkranen;weight_system,scale_gripper,poli_grab;0;1;hydraulischegraafkranen_18;;;;1
+rupskranen_46;Rupskranen;;Rupskranen;;0;1;overslagkranen_46;;;;0
+20ton30ton_46;"20 ton - 30 ton";;"20-30 ton";weight_system,scale_gripper,poli_grab;0;1;rupskranen_46;;;;0
+30ton40ton_47;"30 ton - 40 ton";;">30-40 ton";;0;1;rupskranen_46;;;;1
+40ton50ton_48;"40 ton - 50 ton";;">40-50 ton";;0;1;rupskranen_46;;;;2
+50ton_49;"> 50 ton";;">50 ton";;0;1;rupskranen_46;;;;3
+bandenkranen_50;Bandenkranen;;Bandenkranen;;0;1;overslagkranen_46;;;;1
+20ton30ton_50;"20 ton - 30 ton";;"20-30 ton";;0;1;bandenkranen_50;;;;0
+30ton40ton_51;"30 ton - 40 ton";;">30-40 ton";;0;1;bandenkranen_50;;;;1
+40ton50ton_52;"40 ton - 50 ton";;">40-50 ton";;0;1;bandenkranen_50;;;;2
+50ton_53;"> 50 ton";;">50 ton";;0;1;bandenkranen_50;;;;3
+rupskranengrootgraafbereik_54;"Rupskranen groot graafbereik";;"Rupskranen groot graafbereik";laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Rippertand,Requirements_Machines,Compation_wheel,steering_ats,steering_gps;0;1;hydraulischegraafkranen_18;;;;2
+semilong8m14m_54;"semi-long (8m - 14m)";;"Semi-long (8-14m)";;0;1;rupskranengrootgraafbereik_54;;;;0
+20ton30ton_54;"20 ton - 30 ton";;"20-30 ton";laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,Alternatives,bemanning,Uit_te_voeren_werken,Rippertand,Requirements_Machines,Compation_wheel,steering_ats,steering_gps;0;1;semilong8m14m_54;;;;0
+30ton40ton_55;"30 ton - 40 ton";;">30-40 ton";;0;1;semilong8m14m_54;;;;1
+40ton50ton_56;"40 ton - 50 ton";;">40-50 ton";;0;1;semilong8m14m_54;;;;2
+50ton60ton_57;"50 ton - 60 ton";;">50-60 ton";;0;1;semilong8m14m_54;;;;3
+60ton_58;"> 60 ton";;">60 ton";;0;1;semilong8m14m_54;;;;4
+long14m20m_59;"long (14m - 20m)";;"Long (14-20m)";;0;1;rupskranengrootgraafbereik_54;;;;1
+20ton30ton_59;"20 ton - 30 ton";;"20-30 ton";;0;1;long14m20m_59;;;;0
+30ton40ton_60;"30 ton - 40 ton";;">30-40 ton";;0;1;long14m20m_59;;;;1
+40ton50ton_61;"40 ton - 50 ton";;">40-50 ton";;0;1;long14m20m_59;;;;2
+50ton60ton_62;"50 ton - 60 ton";;">50-60 ton";;0;1;long14m20m_59;;;;3
+60ton_63;"> 60 ton";;">60 ton";;0;1;long14m20m_59;;;;4
+extralong20m_64;"extra long (>20m)";;"Extra long (>20m)";;0;1;rupskranengrootgraafbereik_54;;;;2
+20ton30ton_64;"20 ton - 30 ton";;"20-30 ton";;0;1;extralong20m_64;;;;0
+30ton40ton_65;"30 ton - 40 ton";;">30-40 ton";;0;1;extralong20m_64;;;;1
+40ton50ton_66;"40 ton - 50 ton";;">40-50 ton";;0;1;extralong20m_64;;;;2
+50ton60ton_67;"50 ton - 60 ton";;">50-60 ton";;0;1;extralong20m_64;;;;3
+60ton_68;"> 60 ton";;"> 60 ton";;0;1;extralong20m_64;;;;4
+bandenkranen_69;Bandenkranen;;Bandenkranen;laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,Compation_wheel,steering_ats,steering_gps;0;1;hydraulischegraafkranen_18;;;;3
+8ton11ton_69;"8 ton - 11 ton";;"8-11 ton";;0;1;bandenkranen_69;;;;
+11ton14ton_70;"11 ton - 14 ton";;">11-14 ton";laser,pressurized_cabin,tilt_coupling,tilt_rotation_coupling,hydraulic_breaker,hydraulic_crusher,hydraulic_concrete_breaker,hydraulic_iron_scissors,sorting_head_grapples,palletfork,cobblestone_tank,Alternatives,bemanning,Uit_te_voeren_werken,Smalle_bak,Kantelkoppeling_kantelbak,Rippertand,Compation_wheel,steering_ats,steering_gps;0;1;bandenkranen_69;;;;
+14ton17ton_71;"14 ton - 17 ton";;">14-17 ton";;0;1;bandenkranen_69;;;;
+17ton20ton_72;"17 ton - 20 ton";;">17-20 ton";;0;1;bandenkranen_69;;;;
+20ton_73;"> 20 ton";;">20 ton";;0;1;bandenkranen_69;;;;
+dumpers_77;Dumpers;;Dumpers;pressurized_cabin,weight_system,Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;grondverzet_0;;;;2
+Mini_Dumpers;"Mini dumpers (0-9 ton)";;"Mini dumpers (0-9 ton)";pressurized_cabin,weight_system,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,rotating_tipper;0;1;dumpers_77;;;;
+Banden;Banden;;Banden;pressurized_cabin,weight_system,Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;Mini_Dumpers;;;;
+0_2ton2;"0-2 ton";;"0-2 ton";pressurized_cabin,weight_system,Alternatives,bemanning,Uit_te_voeren_werken,RoterendeKipbak;0;1;Banden;;;;
+2_4ton2;">2-4 ton";;">2-4 ton";;0;1;Banden;;;;
+4_8ton;">4-8 ton";;">4-9 ton";;0;1;Banden;;;;
+Rupsen;Rupsen;;Rupsen;;0;1;Mini_Dumpers;;;;
+0_2ton3;"0-2 ton";;"0-2 ton";;0;1;Rupsen;;;;
+2_4ton3;">2-4 ton";;">2-4 ton";;0;1;Rupsen;;;;
+4_8ton3;">4-8 ton";;">4-9 ton";;0;1;Rupsen;;;;
+knikdumpers_77;Knikdumpers;;Knikdumpers;pressurized_cabin,weight_system,gps_tracking,hardox_strengthened,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Spon;0;1;dumpers_77;;;;
+15ton_77;">9-15 ton";;">9-15 ton";;0;1;knikdumpers_77;;;;
+15ton20ton_78;"15 ton - 20 ton";;">15-20 ton";pressurized_cabin,weight_system,gps_tracking,hardox_strengthened,Alternatives,bemanning,Uit_te_voeren_werken,Spon;0;1;knikdumpers_77;;;;
+20ton25ton_79;"20 ton - 25 ton";;">20-25 ton";;0;1;knikdumpers_77;;;;
+25ton30ton_80;"25 ton - 30 ton";;">25-30 ton";;0;1;knikdumpers_77;;;;
+30ton35ton_81;"30 ton - 35 ton";;">30-35 ton";;0;1;knikdumpers_77;;;;
+35ton_82;"> 35 ton";;">35 ton";;0;1;knikdumpers_77;;;;
+starredumpers_86;"Starre dumpers";;"Starre dumpers";pressurized_cabin,weight_system,hardox_strengthened,Alternatives,transporttest,bemanning,Uit_te_voeren_werken;0;1;dumpers_77;;;;
+40ton_86;"<= 40 ton";;"< of = 40 ton";;0;1;starredumpers_86;;;;
+40ton_87;"> 40 ton";;">40 ton";pressurized_cabin,weight_system,hardox_strengthened,Alternatives,bemanning,Uit_te_voeren_werken;0;1;starredumpers_86;;;;
+rupsdumpers_83;Rupsdumpers;;Rupsdumpers;pressurized_cabin,weight_system,hardox_strengthened,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,rotating_tipper;0;1;dumpers_77;;;;
+7ton12ton_84;">9-12 ton";;">9-12 ton";pressurized_cabin,weight_system,turntable,hardox_strengthened,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Requirements_Machines,rotating_tipper;0;1;rupsdumpers_83;;;;
+12ton_85;"> 12 ton";;">12 ton";pressurized_cabin,weight_system,hardox_strengthened,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Requirements_Machines,rotating_tipper;0;1;rupsdumpers_83;;;;
+wielenrupsladers_88;"Wiel- en rupsladers";;"Wiel- en rupsladers";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;grondverzet_0;;;;3
+knikladers_88;Knikladers;;Knikladers;pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken;0;1;wielenrupsladers_88;;;;
+Zeer_klein;"Zeer klein";;"Klein (0-4 ton)";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Requirements_Machines,lifting_arm,Mestklauw,Pelikaanbak,Broom_Bucket,Klinkerklem;0;1;knikladers_88;;;;
+0_2ton;"0-2 ton";;"0-2 ton";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Requirements_Machines,lifting_arm,Mestklauw,Tegelriek;0;1;Zeer_klein;;;;
+2_4ton;"2-4 ton";;">2-4 ton";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,bemanning,Uit_te_voeren_werken,Requirements_Machines,lifting_arm,Mestklauw,Pelikaanbak;0;1;Zeer_klein;;;;
+klein3t9t_88;"klein (3t - 9t)";;"Middelgroot (5-9 ton)";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,lifting_arm;0;1;knikladers_88;;;;
+5tontype906_88;"5 ton type 906";;"5 ton (= Type 906)";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Requirements_Machines,lifting_arm,Pelikaanbak,Broom_Bucket;0;1;klein3t9t_88;;;;
+6tontype908_89;"6 ton type 908";;"6 ton (= Type 908)";pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,bemanning,Uit_te_voeren_werken,lifting_arm;0;1;klein3t9t_88;;;;
+81tontype910_90;"8.1 ton type 910";;"8 ton (= Type 910)";;0;1;klein3t9t_88;;;;
+87tontype914_91;"8.7 ton type 914";;"9 ton (= Type 914)";;0;1;klein3t9t_88;;;;
+middelgroot9t20t_92;"middelgroot (>9t - 20t)";;"Groot (>9-20 ton)";laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,wipe_brush,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,lifting_arm,steering_ats,steering_gps;0;1;knikladers_88;;;;
+95tontype918_92;"9.5 ton type 918";;"10 ton (= Type 918)";;0;1;middelgroot9t20t_92;;;;
+13tontype926_93;"13 ton type 926";;"13-14 ton (= Type 926 en 930)";laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,wipe_brush,equalize_tank,Alternatives,bemanning,Uit_te_voeren_werken,lifting_arm,steering_ats,steering_gps;0;1;middelgroot9t20t_92;;;;
+165tontype938_95;"16.5 ton type 938";;"16 ton (= Type 938)";;0;1;middelgroot9t20t_92;;;;
+192tontype950_96;"19.2 ton type 950";;"20 ton (= Type 950)";;0;1;middelgroot9t20t_92;;;;
+groot20t_97;"groot (>20t)";;"Extra groot (>20 ton)";laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,strenght_wheels,steering_ats,steering_gps;0;1;knikladers_88;;;;
+232tontype966_97;"23.2 ton type 966";;"23 ton (= Type 966)";;0;1;groot20t_97;;;;
+25tontype972_98;"25 ton type 972";;"25 ton (= Type 972)";laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,equalize_tank,Alternatives,bemanning,Uit_te_voeren_werken,strenght_wheels,steering_ats,steering_gps;0;1;groot20t_97;;;;
+31tontype980_99;"31 ton type 980";;"30 ton (= Type 980)";;0;1;groot20t_97;;;;
+51tontype988_100;"51 ton type 988";;"50 ton (= Type 988)";;0;1;groot20t_97;;;;
+schrankladers_101;Schrankladers;;Schrankladers;laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,wipe_brush,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Requirements_Machines,lifting_arm,steering_ats,steering_gps,eyebolts,Pelikaanbak,Broom_Bucket;0;1;wielenrupsladers_88;;;;
+rupsen_101;rupsen;;Rupsen;laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,wipe_brush,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,steering_ats,steering_gps;0;1;schrankladers_101;;;;
+banden_102;banden;;Banden;laser,pressurized_cabin,weight_system,scoop_tank,palletfork,cobblestone_tank,wipe_brush,equalize_tank,Alternatives,transporttest,bemanning,Uit_te_voeren_werken,Full_tires,steering_ats,steering_gps,eyebolts;0;1;schrankladers_101;;;;
+verdichting_103;Verdichting;;Verdichting;Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;grondverzet_0;;;;4
+kofferwals_103;kofferwals;;Kofferwalsen;pressurized_cabin,compaction_meter,gps_tracking,studs,Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;verdichting_103;;;;
+6ton9ton_103;"< of = 10 ton";;"< of = 10 ton";Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;kofferwals_103;;;;
+9ton12ton_104;">10-15 ton";;">10-15 ton";pressurized_cabin,compaction_meter,gps_tracking,studs,Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;kofferwals_103;;;;
+12ton15ton_105;">15-20 ton";;">15-20 ton";;0;1;kofferwals_103;;;;
+15ton18ton_106;">20 ton";;">20 ton";;0;1;kofferwals_103;;;;
+asfaltwals_108;asfaltwals;;Asfaltwalsen;watersupply,Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;verdichting_103;;;;
+klein5t_108;"klein (<5t)";;"Klein (<5 ton)";;0;1;asfaltwals_108;;;;
+groot5t_109;"groot (>5t)";;"Groot (>5 ton)";watersupply,Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;asfaltwals_108;;;;
+DubbeleRolWalsen;"Dubbele Rol Walsen";;"Dubbele rol walsen (Tandemwalsen)";Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;verdichting_103;;;;
+Klein5t_109;Klein(<5ton);;"Klein (<5 ton)";;0;1;DubbeleRolWalsen;;;;
+Groot5t_110;"Groot (>5t)";;"Groot (>5 ton)";Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;DubbeleRolWalsen;;;;
+bandenwals_110;Bandenwals;;Bandenwalsen;gps_tracking,watersupply,Alternatives,transporttest,bemanning,Uit_te_voeren_werken;0;1;verdichting_103;;;;
+combiwalsasfaltbanden_111;"Combiwals (asfalt + banden)";;"Combiwalsen (asfalt + banden)";gps_tracking,watersupply,Alternatives,transporttest,bemanning,Uit_te_voeren_werken;0;1;verdichting_103;;;;
+Loopwalsen;Loopwalsen;;Loopwalsen;Alternatives,transporttest,Uit_te_voeren_werken,Requirements_Machines;0;1;verdichting_103;;;;
+afvalcompactors_112;Afvalcompactors;;Afvalcompactors;pressurized_cabin,gps_tracking,Alternatives,transporttest,bemanning,Uit_te_voeren_werken;0;1;verdichting_103;;;;
+Trilplaten;Trilplaten;;Trilplaten;Alternatives,transporttest,Uit_te_voeren_werken;0;1;verdichting_103;;;;
+80kg;50-100kg;;"50-100 kg";Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;Trilplaten;;;;
+100_200kg;">100-200 kg";;">100-200 kg";pressurized_cabin,gps_tracking,Alternatives,bemanning,Uit_te_voeren_werken;0;1;Trilplaten;;;;
+200_400kg;">200-400 kg";;">200-400 kg";Alternatives,Uit_te_voeren_werken;0;1;Trilplaten;;;;
+400_800kg;">400-800 kg";;">400-800 kg";;0;1;Trilplaten;;;;
+Sleuvenwals;Sleuvenwalsen;;Sleuvenwalsen;;0;1;verdichting_103;;;;
+radiobesturing;Radiobesturing;;Radiobesturing;;0;1;Sleuvenwals;;;;
+Zitsleuvenwals;Zitsleuvenwalsen;;Zitsleuvenwalsen;;0;1;Sleuvenwals;;;;
+Trilstamper;Trilstampers;;Trilstampers;Alternatives,transporttest,Uit_te_voeren_werken,Extra_Brandstof;0;1;verdichting_103;;;;
+Aanbouwstukken;Aanbouwstukken;;Aanbouwstukken;;0;1;grondverzet_0;;;;5
+Voor_Hydraulische_graafkraan;"Voor hydraulische graafkranen";;"Voor hydraulische graafkranen";;0;1;Aanbouwstukken;;;;
+sloophamer;"Sloophamer/Hydraulische breekhamer";;"Sloophamer/Hydr. breekhamer";Alternatives,Uit_te_voeren_werken,Extra_Brandstof;0;1;Voor_Hydraulische_graafkraan;;;;
+Sorteergrijper;Sorteergrijper;;Sorteergrijper;;0;1;Voor_Hydraulische_graafkraan;;;;
+Boomgrijper;;;Boomgrijper;;0;1;Voor_Hydraulische_graafkraan;;;;
+Betoncrusher;Betoncrusher;;Betoncrusher;;0;1;Voor_Hydraulische_graafkraan;;;;
+Betonschaar;Betonschaar;;Betonschaar;;0;1;Voor_Hydraulische_graafkraan;;;;
+Ijzerschaar;Ijzerschaar;;Ijzerschaar;;0;1;Voor_Hydraulische_graafkraan;;;;
+rotatie_kantelkoppeling;rotatiekantelkoppeling;;Rotatie-kantelkoppeling;;0;1;Voor_Hydraulische_graafkraan;;;;
+kantelkoppeling;Kantelkoppeling;;Kantelkoppeling;;0;1;Voor_Hydraulische_graafkraan;;;;
+kantelkoppeling_kantelbak;kantelkoppeling_kantelbak;;Kantelkoppeling/kantelbak;;0;1;Voor_Hydraulische_graafkraan;;;;
+Smallebak;"Smalle bak";;"Smalle bak";;0;1;Voor_Hydraulische_graafkraan;;;;
+Riekbak_kasseibak;Riekbak/kasseibak;;Riekbak/Kasseibak;;0;1;Voor_Hydraulische_graafkraan;;;;
+Palletvork;Palletvork;;Palletvork;;0;1;Voor_Hydraulische_graafkraan;;;;
+Verdichtingswiel;Verdichtingswiel;;Verdichtingswiel;;0;1;Voor_Hydraulische_graafkraan;;;;
+Rippertand;Rippertand;;Rippertand;;0;1;Voor_Hydraulische_graafkraan;;;;
+Hydraulic_Auger;;;"Hydraulische grondboor";;0;1;Voor_Hydraulische_graafkraan;;;;
+Vibrator_block;;;Trilblok;;0;1;Voor_Hydraulische_graafkraan;;;;
+Funderingsgrijper;;;Funderingsgrijper;;0;1;Voor_Hydraulische_graafkraan;;;;
+V_Bak;V-bak;;V-bak;;0;1;Voor_Hydraulische_graafkraan;;;;
+Hijsbalk;;;Hijsbalk;;0;1;Voor_Hydraulische_graafkraan;;;;
+Grachtenbak;;;Grachtenbak;;0;1;Voor_Hydraulische_graafkraan;;;;
+Voor_wiellader_rupslader;"Voor wiellader/rupslader";;"Voor wielladers/rupsladers";;0;1;Aanbouwstukken;;;;
+Palletvork2;Palletvork;;Palletvork;;0;1;Voor_wiellader_rupslader;;;;
+Schepbak;Schepbak;;Schepbak;;0;1;Voor_wiellader_rupslader;;;;
+Kasseibak;Kasseibak;;Kasseibak;;0;1;Voor_wiellader_rupslader;;;;
+Veegborstel;Veegborstel;;Veegborstel;;0;1;Voor_wiellader_rupslader;;;;
+Niveleerbalk;Niveleerbalk;;Niveleerbalk;;0;1;Voor_wiellader_rupslader;;;;
+Broom_Bucket;"Broom with bucket";;"Veegborstel met opvangbak";;0;1;Voor_wiellader_rupslader;;;;
+Hijsarm;Hijsarm;;Hijsarm;;0;1;Voor_wiellader_rupslader;;;;
+Mestklauw;Mestklauw;;Mestklauw;;0;1;Voor_wiellader_rupslader;;;;
+Tegelriek;Tegelriek;;Tegelriek;;0;1;Voor_wiellader_rupslader;;;;
+Pelikaanbak;Pelikaanbak;;Pelikaanbak;;0;1;Voor_wiellader_rupslader;;;;
+Klinkerklem;Klinkerklem;;Klinkerklem;;0;1;Voor_wiellader_rupslader;;;;
+Puinbak;;;Puinbak;;0;1;Voor_wiellader_rupslader;;;;
+Kilverbord;Kilverborden;;Kilverborden;;0;1;Aanbouwstukken;;;;
+2m;"2m Breedte";;"2m breedte";;0;1;Kilverbord;;;;
+4m;"4m breedte";;"4m breedte";;0;1;Kilverbord;;;;
+6m;"6m breedte";;"6m breedte";;0;1;Kilverbord;;;;
+hijskranen_115;Hijskranen;;Hijskranen;material_type,lifting_height,radius,height_freight,weight_freight,length_freight,shape_freight,width_freight,gravitycentre_freight,underground_yard,lifting_points,high_voltage_neighbouring_area,underground_gas_pipe,accessibility_yard,location,maps,pictures,lifting_insurance,value_of_freight,height_obstacles,working_height,Alternatives,max_setup_stand_length_x_width;1;0;master;;;;1
+mobielehijskranen_115;"Mobiele hijskranen";;"Mobiele hijskranen";;1;0;hijskranen_115;;;;
+ruwterreinkranen_115;"Ruw terrein kranen";;"Ruw terrein kranen";partitioning_walls_various_dimensions;1;1;mobielehijskranen_115;;;;
+2040truwterreinkraan_115;"20 <= 40T ruw terrein kraan";;"20 <= 40T ruw terrein kraan";;1;1;ruwterreinkranen_115;;;;
+20truwterreinkraan_115;"20T ruw terrein kraan";;"20T ruw terrein kraan";;1;1;2040truwterreinkraan_115;;;;
+25truwterreinkraan_116;"25T ruw terrein kraan";;"25T ruw terrein kraan";;1;1;2040truwterreinkraan_115;;;;
+30truwterreinkraan_117;"30T ruw terrein kraan";;"30T ruw terrein kraan";;1;1;2040truwterreinkraan_115;;;;
+35truwterreinkraan_118;"35T ruw terrein kraan";;"35T ruw terrein kraan";;1;1;2040truwterreinkraan_115;;;;
+40truwterreinkraan_119;"40T ruw terrein kraan";;"40T ruw terrein kraan";;1;1;2040truwterreinkraan_115;;;;
+5060truwterreinkraan_120;"50 <= 60T ruw terrein kraan";;"50 <= 60T ruw terrein kraan";extra_ballast_weights;1;1;ruwterreinkranen_115;;;;
+50truwterreinkraan_120;"50T ruw terrein kraan";;"50T ruw terrein kraan";;1;1;5060truwterreinkraan_120;;;;
+55truwterreinkraan_121;"55T ruw terrein kraan";;"55T ruw terrein kraan";;1;1;5060truwterreinkraan_120;;;;
+60truwterreinkraan_122;"60T ruw terrein kraan";;"60T ruw terrein kraan";;1;1;5060truwterreinkraan_120;;;;
+70t90truwterreinkraan_123;"70T <= 90T ruw terrein kraan";;"70T <= 90T ruw terrein kraan";extra_ballast_weights;1;1;ruwterreinkranen_115;;;;
+70truwterreinkraan_123;"70T ruw terrein kraan";;"70T ruw terrein kraan";;1;1;70t90truwterreinkraan_123;;;;
+80truwterreinkraan_124;"80T ruw terrein kraan";;"80T ruw terrein kraan";;1;1;70t90truwterreinkraan_123;;;;
+90truwterreinkraan_125;"90T ruw terrein kraan";;"90T ruw terrein kraan";;1;1;70t90truwterreinkraan_123;;;;
+100t120truwterreinkraan_126;"100T <= 120T ruw terrein kraan";;"100T <= 120T ruw terrein kraan";extra_ballast_weights;1;1;ruwterreinkranen_115;;;;
+100truwterreinkraan_126;"100T ruw terrein kraan";;"100T ruw terrein kraan";;1;1;100t120truwterreinkraan_126;;;;
+110truwterreinkraan_127;"110T ruw terrein kraan";;"110T ruw terrein kraan";material_type,lifting_height,radius,height_freight,weight_freight,length_freight,shape_freight,gravitycentre_freight,underground_yard,lifting_points,high_voltage_neighbouring_area,underground_gas_pipe,accessibility_yard,location,maps,pictures,lifting_insurance,value_of_freight,height_obstacles,working_height,Alternatives;1;1;100t120truwterreinkraan_126;;;;
+120truwterreinkraan_128;"120T ruw terrein kraan";;"120T ruw terrein kraan";;1;1;100t120truwterreinkraan_126;;;;
+mobieletelescoopkranen_129;"Mobiele telescoopkranen";;"Mobiele telescoopkranen";partitioning_walls_various_dimensions,extra_ballast_weights;1;1;mobielehijskranen_115;;;;
+7t30ttelescoopkraan_129;"7T <= 30T telescoopkraan";;"7T <= 30T telescoopkraan";;1;1;mobieletelescoopkranen_129;;;;
+7ttelescoopkraan_129;"7T telescoopkraan";;"7T telescoopkraan";;1;1;7t30ttelescoopkraan_129;;;;
+15ttelescoopkraan_130;"15T telescoopkraan";;"15T telescoopkraan";;1;1;7t30ttelescoopkraan_129;;;;
+20ttelescoopkraan_131;"20T telescoopkraan";;"20T telescoopkraan";;1;1;7t30ttelescoopkraan_129;;;;
+25ttelescoopkraan_132;"25T telescoopkraan";;"25T telescoopkraan";;1;1;7t30ttelescoopkraan_129;;;;
+30ttelescoopkraan_133;"30T telescoopkraan";;"30T telescoopkraan";;1;1;7t30ttelescoopkraan_129;;;;
+35t60ttelescoopkraan_134;"35T <= 60T telescoopkraan";;"35T <= 60T telescoopkraan";extra_ballast_weights;1;1;mobieletelescoopkranen_129;;;;
+35ttelescoopkraan_134;"35T telescoopkraan";;"35T telescoopkraan";;1;1;35t60ttelescoopkraan_134;;;;
+40ttelescoopkraan_135;"40T telescoopkraan";;"40T telescoopkraan";;1;1;35t60ttelescoopkraan_134;;;;
+50ttelescoopkraan_136;"50T telescoopkraan";;"50T telescoopkraan";;1;1;35t60ttelescoopkraan_134;;;;
+55ttelescoopkraan_137;"55T telescoopkraan";;"55T telescoopkraan";extra_ballast_weights;1;1;35t60ttelescoopkraan_134;;;;
+60ttelescoopkraan_138;"60T telescoopkraan";;"60T telescoopkraan";;1;1;35t60ttelescoopkraan_134;;;;
+70t90ttelescoopkraan_139;"70T <= 90T telescoopkraan";;"70T <= 90T telescoopkraan";;1;1;mobieletelescoopkranen_129;;;;
+70ttelescoopkraan_139;"70T telescoopkraan";;"70T telescoopkraan";;1;1;70t90ttelescoopkraan_139;;;;
+80ttelescoopkraan_140;"80T telescoopkraan";;"80T telescoopkraan";extra_ballast_weights;1;1;70t90ttelescoopkraan_139;;;;
+90ttelescoopkraan_141;"90T telescoopkraan";;"90T telescoopkraan";;1;1;70t90ttelescoopkraan_139;;;;
+100t140ttelescoopkraan_142;"100T <= 140T telescoopkraan";;"100T <= 140T telescoopkraan";;1;1;mobieletelescoopkranen_129;;;;
+100ttelescoopkraan_142;"100T telescoopkraan";;"100T telescoopkraan";;1;1;100t140ttelescoopkraan_142;;;;
+110ttelescoopkraan_143;"110T telescoopkraan";;"110T telescoopkraan";partitioning_walls_various_dimensions,extra_ballast_weights;1;1;100t140ttelescoopkraan_142;;;;
+120ttelescoopkraan_144;"120T telescoopkraan";;"120T telescoopkraan";;1;1;100t140ttelescoopkraan_142;;;;
+125ttelescoopkraan_145;"125T telescoopkraan";;"125T telescoopkraan";;1;1;100t140ttelescoopkraan_142;;;;
+130ttelescoopkraan_146;"130T telescoopkraan";;"130T telescoopkraan";;1;1;100t140ttelescoopkraan_142;;;;
+140ttelescoopkraan_147;"140T telescoopkraan";;"140T telescoopkraan";;1;1;100t140ttelescoopkraan_142;;;;
+mobieletorenkranen_148;"Mobiele torenkranen";;"Mobiele torenkranen";partitioning_walls_various_dimensions;1;1;mobielehijskranen_115;;;;
+radiushorizontaal40m_148;"Radius horizontaal <40m";;"Radius horizontaal <40m";;1;1;mobieletorenkranen_148;;;;
+33mmobieletorenkraan_148;"33m mobiele torenkraan";;"33m mobiele torenkraan";;1;1;radiushorizontaal40m_148;;;;
+36mmobieletorenkraan_149;"36m mobiele torenkraan";;"36m mobiele torenkraan";;1;1;radiushorizontaal40m_148;;;;
+38mmobieletorenkraan_150;"38m mobiele torenkraan";;"38m mobiele torenkraan";;1;1;radiushorizontaal40m_148;;;;
+radiushorizontaal40m48m_151;"Radius horizontaal 40m <= 48m";;"Radius horizontaal 40m <= 48m";;1;1;mobieletorenkranen_148;;;;
+40mmobieletorenkraan_151;"40m mobiele torenkraan";;"40m mobiele torenkraan";;1;1;radiushorizontaal40m48m_151;;;;
+44mmobieletorenkraan_152;"44m mobiele torenkraan";;"44m mobiele torenkraan";;1;1;radiushorizontaal40m48m_151;;;;
+45mmobieletorenkraan_153;"45m mobiele torenkraan";;"45m mobiele torenkraan";;1;1;radiushorizontaal40m48m_151;;;;
+48mmobieletorenkraan_154;"48m mobiele torenkraan";;"48m mobiele torenkraan";;1;1;radiushorizontaal40m48m_151;;;;
+radiushorizontaal50m65_155;"Radius horizontaal 50m <= 65";;"Radius horizontaal 50m <= 65";;1;1;mobieletorenkranen_148;;;;
+50mmobieletorenkraan_155;"50m mobiele torenkraan";;"50m mobiele torenkraan";;1;1;radiushorizontaal50m65_155;;;;
+52mmobieletorenkraan_156;"52m mobiele torenkraan";;"52m mobiele torenkraan";;1;1;radiushorizontaal50m65_155;;;;
+60mmobieletorenkraan_157;"60m mobiele torenkraan";;"60m mobiele torenkraan";;1;1;radiushorizontaal50m65_155;;;;
+65mmobieletorenkraan_158;"65m mobiele torenkraan";;"65m mobiele torenkraan";;1;1;radiushorizontaal50m65_155;;;;
+40trupstelescoopkraan_159;"40T rupstelescoopkraan";;"40T rupstelescoopkraan";;1;1;radiushorizontaal50m65_155;;;;
+50trupstelescoopkraan_160;"50T rupstelescoopkraan";;"50T rupstelescoopkraan";;1;1;radiushorizontaal50m65_155;;;;
+60trupstelescoopkraan_161;"60T rupstelescoopkraan";;"60T rupstelescoopkraan";;1;1;radiushorizontaal50m65_155;;;;
+hijskranenoprupsen_159;"Hijskranen op rupsen";;"Hijskranen op rupsen";;1;0;hijskranen_115;;;;
+rupstelescoopkranen_159;"Rups-telescoop kranen";;"Rups-telescoop kranen";partitioning_walls_various_dimensions;1;1;hijskranenoprupsen_159;;;;
+rupskranenvakwerkgiek_162;"Rupskranen (vakwerkgiek)";;"Rupskranen (vakwerkgiek)";partitioning_walls_various_dimensions,ballast,exact_amount_of_boomlength_meters;1;1;hijskranenoprupsen_159;;;;
+90trupskraanmetvakwerkgiek_162;"<= 90T rupskraan met vakwerkgiek";;"<= 90T rupskraan met vakwerkgiek";;1;1;rupskranenvakwerkgiek_162;;;;
+65trupskraanmetvakwerkgiek_162;"65T rupskraan met vakwerkgiek";;"65T rupskraan met vakwerkgiek";;1;1;90trupskraanmetvakwerkgiek_162;;;;
+70trupskraanmetvakwerkgiek_163;"70T rupskraan met vakwerkgiek";;"70T rupskraan met vakwerkgiek";;1;1;90trupskraanmetvakwerkgiek_162;;;;
+80trupskraanmetvakwerkgiek_164;"80T rupskraan met vakwerkgiek";;"80T rupskraan met vakwerkgiek";;1;1;90trupskraanmetvakwerkgiek_162;;;;
+90trupskraanmetvakwerkgiek_165;"90T rupskraan met vakwerkgiek";;"90T rupskraan met vakwerkgiek";;1;1;90trupskraanmetvakwerkgiek_162;;;;
+100t140trupskraanmetvakwerkgiek_166;"100T <= 140T rupskraan met vakwerkgiek";;"100T <= 140T rupskraan met vakwerkgiek";;1;1;rupskranenvakwerkgiek_162;;;;
+100trupskraanmetvakwerkgiek_166;"100T rupskraan met vakwerkgiek";;"100T rupskraan met vakwerkgiek";;1;1;100t140trupskraanmetvakwerkgiek_166;;;;
+120trupskraanmetvakwerkgiek_167;"120T rupskraan met vakwerkgiek";;"120T rupskraan met vakwerkgiek";;1;1;100t140trupskraanmetvakwerkgiek_166;;;;
+130trupskraanmetvakwerkgiek_168;"130T rupskraan met vakwerkgiek";;"130T rupskraan met vakwerkgiek";;1;1;100t140trupskraanmetvakwerkgiek_166;;;;
+140trupskraanmetvakwerkgiek_169;"140T rupskraan met vakwerkgiek";;"140T rupskraan met vakwerkgiek";;1;1;100t140trupskraanmetvakwerkgiek_166;;;;
+transport_170;Transport;;Transport;;0;1;master;;;;2
+trekkeropleggersplattetrailers_170;"Trekker + opleggers / platte trailers";;"Trekker + opleggers / platte trailers";control_option;0;1;transport_170;;;;
+eurodieplader_179;euro-dieplader;;euro-dieplader;;0;1;trekkeropleggersplattetrailers_170;;;;
+2aseurodieplader_179;"2-as euro dieplader";;"2-as euro dieplader";;0;1;eurodieplader_179;;;;
+3aseurodieplader_180;"3-as euro dieplader";;"3-as euro dieplader";;0;1;eurodieplader_179;;;;
+4aseurodieplader_181;"4-as euro dieplader";;"4-as euro dieplader";;0;1;eurodieplader_179;;;;
+dieplader_177;dieplader;;dieplader;;0;1;trekkeropleggersplattetrailers_170;;;;
+3asdieplader_177;"3-as dieplader";;"3-as dieplader";;0;1;dieplader_177;;;;
+4asdieplader_178;"4-as dieplader";;"4-as dieplader";;0;1;dieplader_177;;;;
+semidieplader_174;semi-dieplader;;semi-dieplader;;0;1;trekkeropleggersplattetrailers_170;;;;
+3assemi_174;"3-as semi";;"3-as semi";partitioning_walls_various_dimensions,ballast,exact_amount_of_boomlength_meters;0;1;semidieplader_174;;;;
+4assemi_175;"4-as semi";;"4-as semi";;0;1;semidieplader_174;;;;
+6assemi_176;"6-as semi";;"6-as semi";;0;1;semidieplader_174;;;;
+plattewagenvlakkeoplegger_170;"platte wagen / vlakke oplegger";;"platte wagen / vlakke oplegger";;0;1;trekkeropleggersplattetrailers_170;;;;
+9m_170;"9 m";;"9 m";;0;1;plattewagenvlakkeoplegger_170;;;;
+12m_171;"12 m";;"12 m";;0;1;plattewagenvlakkeoplegger_170;;;;
+135m_172;"13,5 m";;"13,5 m";;0;1;plattewagenvlakkeoplegger_170;;;;
+plattewagenuitschuiver_173;"platte wagen uitschuiver";;"platte wagen uitschuiver";;0;1;plattewagenvlakkeoplegger_170;;;;
+trekkerkippercombinaties_182;"Trekker + kipper combinaties";;"Trekker + kipper combinaties";pressurized_cabin,weight_system,aluminium_tank,hardox_strengthened,coverup_blanket,hydraulic_spoon,french_doors;0;1;transport_170;;;;
+vrachtwagen_182;Vrachtwagen;;Vrachtwagen;;0;1;trekkerkippercombinaties_182;;;;
+trekker4x23askipper_182;"Trekker 4x2 + 3-as kipper";;"Trekker 4x2 + 3-as kipper";control_option;0;1;vrachtwagen_182;;;;
+trekker4x43askipper_183;"Trekker 4x4 + 3-as kipper";;"Trekker 4x4 + 3-as kipper";;0;1;vrachtwagen_182;;;;
+trekker6x42askipper_184;"Trekker 6x4 + 2-as kipper";;"Trekker 6x4 + 2-as kipper";;0;1;vrachtwagen_182;;;;
+trekker6x62askipper_185;"Trekker 6x6 + 2-as kipper";;"Trekker 6x6 + 2-as kipper";;0;1;vrachtwagen_182;;;;
+tractor_186;Tractor;;Tractor;;0;1;trekkerkippercombinaties_182;;;;
+2asgrondkar_186;"2-as grondkar";;"2-as grondkar";;0;1;tractor_186;;;;
+3asgrondkar_187;"3-as grondkar";;"3-as grondkar";;0;1;tractor_186;;;;
+vrachtwagens_189;Vrachtwagens;;Vrachtwagens;;0;1;transport_170;;;;
+kipper_189;Kipper;;Kipper;material_type,pressurized_cabin,weight_system,aluminium_tank,hardox_strengthened,coverup_blanket,hydraulic_spoon,french_doors,Alternatives;0;1;vrachtwagens_189;;;;
+kipper4x2_189;"Kipper 4x2";;"Kipper 4x2";;0;1;kipper_189;;;;
+kipper4x4_190;"Kipper 4x4";;"Kipper 4x4";;0;1;kipper_189;;;;
+kipper6x2_191;"Kipper 6x2";;"Kipper 6x2";;0;1;kipper_189;;;;
+kipper6x4_192;"Kipper 6x4";;"Kipper 6x4";;0;1;kipper_189;;;;
+kipper6x6_193;"Kipper 6x6";;"Kipper 6x6";;0;1;kipper_189;;;;
+kipper8x4_194;"Kipper 8x4";;"Kipper 8x4";;0;1;kipper_189;;;;
+container_196;Container;;Container;pressurized_cabin,weight_system,aluminium_tank,hardox_strengthened,coverup_blanket,hydraulic_spoon,french_doors;0;1;vrachtwagens_189;;;;
+container4x2_196;"Container 4x2";;"Container 4x2";;0;1;container_196;;;;
+container4x4_197;"Container 4x4";;"Container 4x4";pressurized_cabin,weight_system,aluminium_tank,hardox_strengthened,coverup_blanket,hydraulic_spoon,french_doors;0;1;container_196;;;;
+container6x2_198;"Container 6x2";;"Container 6x2";;0;1;container_196;;;;
+container6x4_199;"Container 6x4";;"Container 6x4";;0;1;container_196;;;;
+container6x6_200;"Container 6x6";;"Container 6x6";;0;1;container_196;;;;
+container8x4_201;"Container 8x4";;"Container 8x4";;0;1;container_196;;;;
+kraanwagen_203;Kraanwagen;;Kraanwagen;;0;1;vrachtwagens_189;;;;
+35tm_203;"35 t/m";;"35 t/m";;0;1;kraanwagen_203;;;;
+72tm_204;"72 t/m";;"72 t/m";;0;1;kraanwagen_203;;;;
+135tm_205;"135 t/m";;"135 t/m";;0;1;kraanwagen_203;;;;
+plateau12m25t_206;"plateau 12m, 25t";;"plateau 12m, 25t";;0;1;kraanwagen_203;;;;
+dieplader9m25t_207;"dieplader 9m, 25t";;"dieplader 9m, 25t";material_type,pressurized_cabin,weight_system,aluminium_tank,hardox_strengthened,coverup_blanket,hydraulic_spoon,french_doors,Alternatives;0;1;kraanwagen_203;;;;
+trekkeropleggersplattes_170;"Trekker + opleggers / platte s";;"Trekker + opleggers / platte s";;0;1;transport_170;;;;
+handlingequipment_208;"Handling Equipment";;Hoogtewerken;Alternatives,Uit_te_voeren_werken;0;1;master;;;;3
+verreikers_208;Verreikers;;Verreikers;palletfork,workcage,winch,liftinghook,working_height,Alternatives,Uit_te_voeren_werken,Requirements_Machines,Verlengvorken,Ground_Bucket,VolumeBucket,boom,lifting_beam,lifting_Piece;0;1;handlingequipment_208;;;;
+starreverreikers_208;"Starre Verreikers";;"Starre Verreikers";palletfork,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken,Ground_Bucket,VolumeBucket,boom,lifting_beam,lifting_Piece;0;1;verreikers_208;;;;
+8m_209;>15-18m;;>15-18m;;0;1;starreverreikers_208;;;;
+10m_211;">10-15 m";;">10-15 m";palletfork,lifting_height,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken,Ground_Bucket,VolumeBucket,boom,lifting_beam,lifting_Piece;0;1;starreverreikers_208;;;;
+9m_210;5-10m;;5-10m;pressurized_cabin,weight_system,aluminium_tank,hardox_strengthened,coverup_blanket,hydraulic_spoon,french_doors;0;1;starreverreikers_208;;;;
+diesel_208;Diesel;;Diesel;;0;1;starreverreikers_208;;;;
+6m_208;"6 m";;"6 m";;0;1;diesel_208;;;;
+13m_212;"13 m";;"13 m";;0;1;diesel_208;;;;
+14m_213;"14 m";;"14 m";;0;1;diesel_208;;;;
+17m_214;"17 m";;"17 m";;0;1;diesel_208;;;;
+roterendeverreikers_217;"Roterende Verreikers";;"Roterende Verreikers";palletfork,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken,Ground_Bucket,VolumeBucket,boom,lifting_beam,lifting_Piece;0;1;verreikers_208;;;;
+21m_219;>25-30m;;>25-30m;palletfork,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken,Ground_Bucket,VolumeBucket,boom,lifting_beam,lifting_Piece;0;1;roterendeverreikers_217;;;;
+18m_218;>20-25m;;>20-25m;;0;1;roterendeverreikers_217;;;;
+16m_217;15-20m;;15-20m;;0;1;roterendeverreikers_217;;;;
+diesel_217;Diesel;;Diesel;;0;1;roterendeverreikers_217;;;;
+26m_220;"26 m";;"26 m";;0;1;diesel_217;;;;
+30m_221;"30 m";;"30 m";;0;1;diesel_217;;;;
+hoogwerkers_225;Hoogwerkers;;Hoogtewerkers;lifting_height,Alternatives,Uit_te_voeren_werken,safety_harness,Width;0;1;handlingequipment_208;;;;
+elektrischemasthoogwerkers_225;"Masthoogtewerker (elektrisch)";;"Masthoogtewerker (elektrisch)";Alternatives,Uit_te_voeren_werken;0;1;hoogwerkers_225;;;;
+Banden_104;Banden;;Banden;;0;1;elektrischemasthoogwerkers_225;;;;
+12m_227;"12 m";;"12 m";;0;1;Banden_104;;;;
+10m_226;"10 m";;"10 m";palletfork,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken;0;1;Banden_104;;;;
+8m_225;"8 m";;"8 m";palletfork,workcage,winch,liftinghook,working_height,Alternatives,Uit_te_voeren_werken,Requirements_Machines,Verlengvorken;0;1;Banden_104;;;;
+Rupsen_104;Rupsen;;Rupsen;;0;1;elektrischemasthoogwerkers_225;;;;
+8m_104;8m;;8m;;0;1;Rupsen_104;;;;
+10m_104;10m;;10m;;0;1;Rupsen_104;;;;
+knikhoogwerkers_228;Kniktelescoop;;Kniktelescoop;palletfork,lifting_height,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken;0;1;hoogwerkers_225;;;;
+elektrisch_228;Elektrisch;;"Elektrisch (batterijen)";;0;1;knikhoogwerkers_228;;;;
+11m_228;10-15m;;10-15m;palletfork,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken;0;1;elektrisch_228;;;;
+12m_229;>15-20m;;>15-20m;;0;1;elektrisch_228;;;;
+15m_230;"15 m";;"15 m";;0;1;elektrisch_228;;;;
+diesel_231;Diesel;;Diesel;palletfork,workcage,winch,liftinghook,Alternatives,Uit_te_voeren_werken,Verlengvorken;0;1;knikhoogwerkers_228;;;;
+12m_231;10-15m;;10-15m;;0;1;diesel_231;;;;
+15m_232;>15-20m;;>15-20m;;0;1;diesel_231;;;;
+175m_233;>20-30m;;>20-30m;;0;1;diesel_231;;;;
+20m_234;>30-40m;;>30-40m;;0;1;diesel_231;;;;
+26m_235;>40-43m;;>40-43m;;0;1;diesel_231;;;;
+40m_236;"40 m";;"40 m";;0;1;diesel_231;;;;
+Hybride;Hybride;;Hybride;;0;1;knikhoogwerkers_228;;;;
+20m;20m;;20m;;0;1;Hybride;;;;
+telescopischehoogwerkers_237;"Telescoop (diesel)";;"Telescoop (diesel)";;0;1;hoogwerkers_225;;;;
+rupshoogwerkers_243;Rupsen;;Rupsen;;0;1;telescopischehoogwerkers_237;;;;
+23m_246;>15-20m;;>15-20m;;0;1;rupshoogwerkers_243;;;;
+22m_245;10-15m;;10-15m;;0;1;rupshoogwerkers_243;;;;
+diesel_243;>20-22m;;>20-22m;;0;1;rupshoogwerkers_243;;;;
+14m_243;"14 m";;"14 m";;0;1;diesel_243;;;;
+20m_244;"20 m";;"20 m";;0;1;diesel_243;;;;
+43m_242;Trax;;Trax;;0;1;telescopischehoogwerkers_237;;;;
+16m;16m;;16m;;0;1;43m_242;;;;
+22m;22m;;22m;;0;1;43m_242;;;;
+diesel_237;Banden;;Banden;;0;1;telescopischehoogwerkers_237;;;;
+158m_237;15-20m;;15-20m;;0;1;diesel_237;;;;
+20m_238;>20-25m;;>20-25m;;0;1;diesel_237;;;;
+22m_239;>25-30m;;>25-30m;;0;1;diesel_237;;;;
+28m_240;30-40m;;30-40m;;0;1;diesel_237;;;;
+38m_241;>40-43m;;>40-43m;;0;1;diesel_237;;;;
+spinhoogwerkers_247;Spinhoogwerkers;;"Spinhoogtewerker (rupsen)";lifting_height,Alternatives,Uit_te_voeren_werken,safety_harness,Trailer;0;1;hoogwerkers_225;;;;
+22m_250;>30-33m;;>30-33m;;0;1;spinhoogwerkers_247;;;;
+13m_247;>25-30m;;>25-30m;;0;1;spinhoogwerkers_247;;;;
+15m_248;>20-25m;;>20-25m;;0;1;spinhoogwerkers_247;;;;
+18m_249;10-15m;;10-15m;;0;1;spinhoogwerkers_247;;;;
+1020mdiesel_247;>15-20m;;>15-20m;;0;1;spinhoogwerkers_247;;;;
+2140mdiesel_250;"21 - 40 m (diesel)";;"21 - 40 m (diesel)";;0;1;spinhoogwerkers_247;;;;
+25m_251;"25 m";;"25 m";;0;1;2140mdiesel_250;;;;
+27m_252;"27 m";;"27 m";;0;1;2140mdiesel_250;;;;
+30m_253;"30 m";;"30 m";;0;1;2140mdiesel_250;;;;
+36m_254;"36 m";;"36 m";;0;1;2140mdiesel_250;;;;
+40mdiesel_255;"> 40m (diesel)";;"> 40m (diesel)";;0;1;spinhoogwerkers_247;;;;
+50m_255;"50 m";;"50 m";;0;1;40mdiesel_255;;;;
+hoogwerkeropbestelwagen_256;"Hoogtewerker op aanhangwagen";;"Hoogtewerker op aanhangwagen";lifting_height,Alternatives,Uit_te_voeren_werken,Requirements_Machines,safety_harness;0;1;hoogwerkers_225;;;;
+20m_256;12m;;12m;;0;1;hoogwerkeropbestelwagen_256;;;;
+diesel_256;13m;;13m;;0;1;hoogwerkeropbestelwagen_256;;;;
+17m;17m;;17m;;0;1;hoogwerkeropbestelwagen_256;;;;
+hoogwerkersopvrachtwagen_257;"Hoogtewerker op vrachtwagen (Rijbewijs B)";;"Hoogtewerker op vrachtwagen (Rijbewijs B)";;0;1;hoogwerkers_225;;;;
+2440mdiesel_257;Telescoop;;Telescoop;;0;1;hoogwerkersopvrachtwagen_257;;;;
+24m_257;"24 m";;"24 m";;0;1;2440mdiesel_257;;;;
+26m_258;"26 m";;"26 m";;0;1;2440mdiesel_257;;;;
+27m_259;"27 m";;"27 m";;0;1;2440mdiesel_257;;;;
+35m_260;22m;;22m;lifting_height,Alternatives,Uit_te_voeren_werken,Requirements_Machines,safety_harness;0;1;2440mdiesel_257;;;;
+40m_261;27m;;27m;;0;1;2440mdiesel_257;;;;
+4561mdiesel_262;Knik-telescoop;;Knik-telescoop;;0;1;hoogwerkersopvrachtwagen_257;;;;
+45m_262;20m;;20m;;0;1;4561mdiesel_262;;;;
+46m_263;"46 m";;"46 m";;0;1;4561mdiesel_262;;;;
+48m_264;"48 m";;"48 m";;0;1;4561mdiesel_262;;;;
+50m_265;"50 m";;"50 m";;0;1;4561mdiesel_262;;;;
+52m_266;"52 m";;"52 m";;0;1;4561mdiesel_262;;;;
+55m_267;"55 m";;"55 m";;0;1;4561mdiesel_262;;;;
+61m_268;"61 m";;"61 m";;0;1;4561mdiesel_262;;;;
+70100mdiesel_269;"70 - 100 m (diesel)";;"70 - 100 m (diesel)";;0;1;hoogwerkersopvrachtwagen_257;;;;
+70m_269;"70 m";;"70 m";;0;1;70100mdiesel_269;;;;
+75m_270;"75 m";;"75 m";;0;1;70100mdiesel_269;;;;
+84m_271;"84 m";;"84 m";;0;1;70100mdiesel_269;;;;
+90m_272;"90 m";;"90 m";;0;1;70100mdiesel_269;;;;
+100m_273;"> 100m";;"> 100m";;0;1;hoogwerkersopvrachtwagen_257;;;;
+103m_273;"103 m";;"103 m";;0;1;100m_273;;;;
+vorkliftsheftrucks_274;"Vorkliften (heftrucks)";;"Vorkliften (heftrucks)";liftinghook,Alternatives,Uit_te_voeren_werken,Requirements_Machines,Verlengvorken,lifting_beam,lifting_Piece,kipbak,Width;0;1;handlingequipment_208;;;;
+elektrisch_294;Elektrisch;;Elektrisch;;0;1;vorkliftsheftrucks_274;;;;
+15t_294;"1,5 ton";;"1,5 ton";;0;1;elektrisch_294;;;;
+2t_295;2T;;2T;;0;1;elektrisch_294;;;;
+25t_296;"2,5 ton";;"2,5 ton";;0;1;elektrisch_294;;;;
+3t_297;"3 ton";;"3 ton";;0;1;elektrisch_294;;;;
+35t_298;3,5T;;3,5T;Alternatives;0;1;elektrisch_294;;;;
+4t_299;4T;;4T;;0;1;elektrisch_294;;;;
+45t_300;4,5T;;4,5T;;0;1;elektrisch_294;;;;
+5t_301;"5 ton";;"5 ton";;0;1;elektrisch_294;;;;
+7t_302;7T;;7T;;0;1;elektrisch_294;;;;
+9t_303;9T;;9T;;0;1;elektrisch_294;;;;
+15t_304;1,5T;;1,5T;;0;1;elektrisch_294;;;;
+dieselheftrucksvlakterrein_274;Diesel;;Diesel;Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;vorkliftsheftrucks_274;;;;
+diesel_274;Diesel;;Diesel;;0;1;dieselheftrucksvlakterrein_274;;;;
+15t_274;1,5T;;1,5T;Alternatives,Uit_te_voeren_werken,Requirements_Machines;0;1;diesel_274;;;;
+25t_275;2,5T;;2,5T;;0;1;diesel_274;;;;
+3t_276;3T;;3T;;0;1;diesel_274;;;;
+35t_277;3,5T;;3,5T;;0;1;diesel_274;;;;
+4t_278;4T;;4T;;0;1;diesel_274;;;;
+45t_279;4,5T;;4,5T;;0;1;diesel_274;;;;
+6t_280;6T;;6T;;0;1;diesel_274;;;;
+7t_281;7T;;7T;;0;1;diesel_274;;;;
+8t_282;8T;;8T;;0;1;diesel_274;;;;
+10t_283;10T;;10T;;0;1;diesel_274;;;;
+12t_284;12T;;12T;;0;1;diesel_274;;;;
+16t_285;16T;;16T;;0;1;diesel_274;;;;
+lpg_286;LPG;;LPG;;0;1;dieselheftrucksvlakterrein_274;;;;
+15t_286;1,5T;;1,5T;;0;1;lpg_286;;;;
+25t_287;2,5T;;2,5T;Alternatives;0;1;lpg_286;;;;
+3t_288;3T;;3T;;0;1;lpg_286;;;;
+35t_289;3,5T;;3,5T;;0;1;lpg_286;;;;
+4t_290;4T;;4T;;0;1;lpg_286;;;;
+45t_291;4,5T;;4,5T;;0;1;lpg_286;;;;
+5t_292;5T;;5T;;0;1;lpg_286;;;;
+6t_293;6T;;6T;;0;1;lpg_286;;;;
+1_5ton;"1,5-2 ton";;"1,5-2 ton";;0;1;dieselheftrucksvlakterrein_274;;;;
+2_3ton;>2-3t;;">2-3 ton";;0;1;dieselheftrucksvlakterrein_274;;;;
+3_5ton;">3-5 ton";;">3-5 ton";;0;1;dieselheftrucksvlakterrein_274;;;;
+5_7ton;">5-7 ton";;">5-7 ton";;0;1;dieselheftrucksvlakterrein_274;;;;
+semiruwterreinheftrucks_305;"Semi-ruw terrein heftrucks";;"Semi-ruw terrein heftrucks";;0;1;vorkliftsheftrucks_274;;;;
+ruwterreinheftrucks_306;"Ruw terrein (4x4)";;"Ruw terrein (4x4)";;0;1;vorkliftsheftrucks_274;;;;
+25t_306;"2,5 ton";;"2,5 ton";;0;1;ruwterreinheftrucks_306;;;;
+3t_307;"3 ton";;"3 ton";;0;1;ruwterreinheftrucks_306;;;;
+5t_308;"5 ton";;"5 ton";;0;1;ruwterreinheftrucks_306;;;;
+schaarlift_309;Schaarlift;;Schaarlift;working_height,Alternatives,Uit_te_voeren_werken,Requirements_Machines,safety_harness,Width;0;1;handlingequipment_208;;;;
+elektrisch_309;Elektrisch;;Elektrisch;;0;1;schaarlift_309;;;;
+56m_309;5-10m;;5-10m;;0;1;elektrisch_309;;;;
+75m_310;>10-15m;;>10-15m;;0;1;elektrisch_309;;;;
+8m_311;>15-17m;;>15-17m;;0;1;elektrisch_309;;;;
+95m_312;"9,5 m";;"9,5 m";;0;1;elektrisch_309;;;;
+115m_313;"11,5 m";;"11,5 m";;0;1;elektrisch_309;;;;
+12m_314;"12 m";;"12 m";;0;1;elektrisch_309;;;;
+14m_315;"14 m";;"14 m";;0;1;elektrisch_309;;;;
+17m_316;17m;;17m;;0;1;elektrisch_309;;;;
+diesel_317;Diesel;;Diesel;;0;1;schaarlift_309;;;;
+97m_317;10-15m;;10-15m;;0;1;diesel_317;;;;
+12m_318;>15-20m;;>15-20m;;0;1;diesel_317;;;;
+15m_319;>20-22m;;>20-22m;;0;1;diesel_317;;;;
+18m_320;"18 m";;"18 m";;0;1;diesel_317;;;;
+215m_321;"21,5 m";;"21,5 m";;0;1;diesel_317;;;;
+werfinrichting_322;"Stroomgroepen en verlichting";;"Stroomgroepen en verlichting";Alternatives,transporttest;0;1;master;;;;4
+schottenrijplatentijdelijkerijweg_322;"Schotten / (rij)platen (Tijdelijke rijweg)";;"Schotten / (rij)platen (Tijdelijke rijweg)";max_width,max_length,surface;0;1;werfinrichting_322;;;;
+houtendraglineschotten_322;"Houten dragline schotten";;"Houten dragline schotten";;0;1;schottenrijplatentijdelijkerijweg_322;;;;
+10cm_322;"10 cm";;"10 cm";;0;1;houtendraglineschotten_322;;;;
+15cm_323;"15 cm";;"15 cm";;0;1;houtendraglineschotten_322;;;;
+20cm_324;"20 cm";;"20 cm";;0;1;houtendraglineschotten_322;;;;
+rijplaten_325;Rijplaten;;Rijplaten;;0;1;schottenrijplatentijdelijkerijweg_322;;;;
+ijzerenrijplaten_325;"Ijzeren rijplaten";;"Ijzeren rijplaten";;0;1;rijplaten_325;;;;
+10mm_325;"10 mm";;"10 mm";;0;1;ijzerenrijplaten_325;;;;
+13mm_326;"13 mm";;"13 mm";;0;1;ijzerenrijplaten_325;;;;
+14mm_327;"14 mm";;"14 mm";;0;1;ijzerenrijplaten_325;;;;
+15mm_328;"15 mm";;"15 mm";;0;1;ijzerenrijplaten_325;;;;
+kunststofrijplaten_329;"Kunststof rijplaten";;"Kunststof rijplaten";;0;1;rijplaten_325;;;;
+Stroomgroepen;Stroomgroepen;;Stroomgroepen;;0;1;werfinrichting_322;;;;
+100Kva;<100Kva;;<100Kva;;0;1;Stroomgroepen;;;;
+10_20Kva;>10-20Kva;;>10-20Kva;;0;1;100Kva;;;;
+20_30Kva;>20-30Kva;;>20-30Kva;;0;1;100Kva;;;;
+30_40Kva;>30-40Kva;;>30-40Kva;;0;1;100Kva;;;;
+40_50Kva;>40-50Kva;;>40-50Kva;;0;1;100Kva;;;;
+50_100Kva;>50-100Kva;;>50-100Kva;;0;1;100Kva;;;;
+100_300Kva;>100-300Kva;;>100-300Kva;;0;1;Stroomgroepen;;;;
+100_150Kva;>100-150Kva;;>100-150Kva;;0;1;100_300Kva;;;;
+150_200Kva;>150-200Kva;;>150-200Kva;;0;1;100_300Kva;;;;
+200_300Kva;>200-300Kva;;>200-300Kva;;0;1;100_300Kva;;;;
+accessories_generators;"Toebehoren stroomgroepen";;"Toebehoren stroomgroepen";Alternatives,transporttest;0;1;werfinrichting_322;;;;
+Distibution_box;"Distibution box";;Verdeelkast;;0;1;accessories_generators;;;;
+16A;16A;;16A;;0;1;Distibution_box;;;;
+32A;32A;;32A;;0;1;Distibution_box;;;;
+63A;63A;;63A;;0;1;Distibution_box;;;;
+125A;125A;;125A;;0;1;Distibution_box;;;;
+200A;200A;;200A;;0;1;Distibution_box;;;;
+400A;400A;;400A;;0;1;Distibution_box;;;;
+Extension_cable;"Extension cable";;Verlengkabel;;0;1;accessories_generators;;;;
+220V;220V;;220V;;0;1;Extension_cable;;;;
+16A_2;16A;;16A;;0;1;220V;;;;
+380V;380V;;380V;;0;1;Extension_cable;;;;
+16A_3;16A;;16A;;0;1;380V;;;;
+32A_2;32A;;32A;;0;1;380V;;;;
+63A_2;63A;;63A;;0;1;380V;;;;
+125A_2;125A;;125A;;0;1;380V;;;;
+400A_2;400A;;400A;;0;1;380V;;;;
+Fuel_tank;"Fuel tank";;"Brandstoftank (dubbelwandig)";;0;1;accessories_generators;;;;
+1000liter;"1000 liter";;"1000 liter";;0;1;Fuel_tank;;;;
+1500liter;"1500 liter";;"1500 liter";;0;1;Fuel_tank;;;;
+2000liter;"2000 liter";;"2000 liter";;0;1;Fuel_tank;;;;
+2400liter;"2400 liter";;"2400 liter";;0;1;Fuel_tank;;;;
+3000liter;"3000 liter";;"3000 liter";;0;1;Fuel_tank;;;;
+fuel_pomp;"fuel pomp";;Brandstofpomp;;0;1;accessories_generators;;;;
+Cable_protector;"cable protector";;Kabelbeschermer;;0;1;accessories_generators;;;;
+lighting_columns;"lighting columns";;Lichtmasten;;0;1;werfinrichting_322;;;;
+Mobile;Mobile;;Mobiel;;0;1;lighting_columns;;;;
+fixed;fixed;;Vast;;0;1;lighting_columns;;;;

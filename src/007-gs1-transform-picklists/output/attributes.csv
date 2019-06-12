@@ -1,0 +1,14 @@
+code;label-nl_BE;label-fr_BE;localizable;scopable;sort_order
+3_040;AdditionalTradeItemIdentificationTypeCode;AdditionalTradeItemIdentificationTypeCode;0;0;0
+0_091;CountryCode;CountryCode;0;0;1
+3_018;DimensionTypeCode;DimensionTypeCode;0;0;2
+7_224;DisplayTypeCode;DisplayTypeCode;0;0;3
+5_029;GHSSignalWordsCode;GHSSignalWordsCode;0;0;4
+5_030;GHSSymbolDescriptionCode;GHSSymbolDescriptionCode;0;0;5
+7_222;ImportClassificationTypeCode;ImportClassificationTypeCode;0;0;6
+7_225;PlatformTypeCode;PlatformTypeCode;0;0;7
+5_131;PreliminaryItemStatusCode;PreliminaryItemStatusCode;0;0;8
+6_445;ReferencedFileTypeCode;ReferencedFileTypeCode;0;0;9
+3_067;RegulationTypeCode;RegulationTypeCode;0;0;10
+7_229;StackingFactorTypeCode;StackingFactorTypeCode;0;0;11
+3_007;TradeItemUnitDescriptorCode;TradeItemUnitDescriptorCode;0;0;12
