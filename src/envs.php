@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__.'/../vendor/autoload.php';
 
-$clientBuilder = new \Akeneo\Pim\ApiClient\AkeneoPimClientBuilder('http://localhost:8081');
+$clientBuilder = new Akeneo\Pim\ApiClient\AkeneoPimClientBuilder('http://localhost:8081');
 $GLOBALS['origin'] = $clientBuilder->buildAuthenticatedByPassword(
     '1_akeneo_pim',
     'akeneo_pim',
@@ -9,7 +9,7 @@ $GLOBALS['origin'] = $clientBuilder->buildAuthenticatedByPassword(
     'admin'
 );
 
-$clientBuilder = new \Akeneo\Pim\ApiClient\AkeneoPimClientBuilder('http://localhost:8031');
+$clientBuilder = new Akeneo\Pim\ApiClient\AkeneoPimClientBuilder('http://localhost:8031');
 $GLOBALS['destination'] = $clientBuilder->buildAuthenticatedByPassword(
     '1_akeneo_pim',
     'akeneo_pim',
